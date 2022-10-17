@@ -1,0 +1,15 @@
+.intro__title{
+    position: relative;
+    width: 450px;
+    height: 140px;
+    left: 720px;
+    top: 120px;
+    font-family: 'Neue Machina';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 72px;
+    line-height: 70px;
+    letter-spacing: -0.01em;
+    color: --text-dark;
+    float: right;
+}

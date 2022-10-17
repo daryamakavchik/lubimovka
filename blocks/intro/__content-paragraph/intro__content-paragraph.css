@@ -1,0 +1,16 @@
+.intro__content-paragraph{
+    position: relative;
+    width: 420px;
+    height: 128px;
+    margin: 0;
+    padding: 0;
+    left: 180px;
+    top: 325px;
+    font-family: 'Neue Machina';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 32px;
+    letter-spacing: -0.01em;
+    color: --text-dark;
+}
