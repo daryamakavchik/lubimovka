@@ -1,6 +1,11 @@
 .intro{
     display: grid;
     grid-template-rows: 31px 140px 785px;
-    padding-left: 30px;
     padding-top: 33px;
+}
+
+@media screen and (max-width: 414px){
+    .intro{
+        grid-template-rows: 31px 0px 630px;
+    }
 }

@@ -2,7 +2,7 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    margin: 0;
+    margin: 0 0 0 30px;
     padding: 0 0 0 10px;
     max-height: 31px;
     max-width: 121px;
@@ -15,4 +15,10 @@
     color: --text-dark;
     border-right: 1px solid #242424;
     border-bottom: 1px solid #242424;;
+}
+
+@media screen and (max-width: 414px) {
+    .intro__button{
+        margin-left: 86px;
+    }
 }

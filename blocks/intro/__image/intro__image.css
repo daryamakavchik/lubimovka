@@ -4,4 +4,15 @@
     position: relative;
     top: 325px;
     float: right;
+    background-image: url("../../../images/introimage.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+@media screen and (max-width: 414px) {
+    .intro__image{
+        top: 100px;
+        width: 100%;
+    }
 }

@@ -1,15 +1,26 @@
-.intro__title{
-    position: relative;
-    width: 450px;
-    height: 140px;
-    left: 720px;
-    top: 120px;
-    font-family: 'Neue Machina';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 72px;
-    line-height: 70px;
-    letter-spacing: -0.01em;
-    color: --text-dark;
-    float: right;
+.intro__title {
+  position: relative;
+  width: 450px;
+  height: 140px;
+  left: 720px;
+  top: 120px;
+  font-family: "Neue Machina";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 72px;
+  line-height: 70px;
+  letter-spacing: -0.01em;
+  color: --text-dark;
+  float: right;
+}
+
+@media screen and (max-width: 414px) {
+  .intro__title {
+    width: 323px;
+    height: 40px;
+    left: 24px;
+    top: 58px;
+    font-size: 40px;
+    line-height: 40px;
+  }
 }
