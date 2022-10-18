@@ -1,15 +1,15 @@
 .intro__content {
   display: flex;
   flex-direction: row;
-  position: relative;
   width: 100vw;
   justify-content: space-between;
+  padding-top: 65px;
+  padding-left: 180px;
 }
 
-@media screen and (max-width: 414px) {
+@media screen and (max-width: 1200px) {
   .intro__content {
-    position: relative;
     flex-direction: column;
-    justify-content: unset;
+    padding: 0;
   }
 }

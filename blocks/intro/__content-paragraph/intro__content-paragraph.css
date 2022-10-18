@@ -1,12 +1,8 @@
 .intro__content-paragraph{
-    display: block;
-    position: relative;
-    width: 420px;
+    max-width: 420px;
     height: 128px;
     margin: 0;
     padding: 0;
-    top: 325px;
-    left: 12.5%;
     font-family: 'Neue Machina';
     font-style: normal;
     font-weight: 400;
@@ -20,14 +16,13 @@
     margin-inline-end: 0px;
 }
 
-@media screen and (max-width: 414px) {
+@media screen and (max-width: 1200px) {
     .intro__content-paragraph{
         display: block;
         position: relative;
-        width: 304px;
-        height: 144px;
-        top: 120px;
-        left: 0;
+        max-width: 304px;
+        height: auto;
+        margin-top: 62px;
         font-size: 20px;
         line-height: 24px;
         margin-left: auto;

@@ -1,9 +1,8 @@
 .intro__title {
-  position: relative;
-  width: 450px;
+  display: block;
   height: 140px;
-  left: 720px;
-  top: 120px;
+  margin-top: 15.5px;
+  padding-left: calc(100% - 720px);
   font-family: "Neue Machina";
   font-style: normal;
   font-weight: 400;
@@ -14,12 +13,14 @@
   float: right;
 }
 
-@media screen and (max-width: 414px) {
+@media screen and (max-width: 1200px) {
   .intro__title {
-    width: 323px;
+    max-width: 323px;
     height: 40px;
-    left: 24px;
-    top: 58px;
+    padding: 0;
+    margin-top: 58px;
+    margin-left: 5.8%;
+    margin-right: 0;
     font-size: 40px;
     line-height: 40px;
   }
