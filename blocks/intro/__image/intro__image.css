@@ -11,7 +11,7 @@
 
 @media screen and (max-width: 1200px) {
     .intro__image{
-        top: 36px;
+        margin-top: 36px;
         width: 100%;
     }
 }
