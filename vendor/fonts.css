@@ -1,0 +1,8 @@
+@font-face {
+  font-family: 'Formular';
+  font-style: normal;
+  font-display: swap;
+  src: local('Formular'),
+      url(../vendor/fonts/formular/formular-300.woff) format('woff'), url(../vendor/fonts/formular/formular-300.woff2) format('woff2');
+  font-weight: 300;
+}
