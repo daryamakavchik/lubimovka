@@ -2,9 +2,10 @@
   display: flex;
   height: 100%;
   flex-wrap: wrap;
+  column-gap: 24px;
   justify-content: space-between;
   align-items: center;
   margin: 0;
 
-  padding: 0;
+  padding: 0 29px 0 0;
 }

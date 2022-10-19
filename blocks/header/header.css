@@ -1,8 +1,8 @@
 .header {
   position: relative;
   display: flex;
-  justify-content: space-between;
-  height: 61px;
+  flex-wrap: wrap;
+  min-height: 61px;
   padding-left: 106px;
   background-color: rgba(236, 235, 232, 1);
   border-bottom: 1px solid rgba(36, 36, 36, 1);

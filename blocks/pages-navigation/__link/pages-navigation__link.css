@@ -1,4 +1,14 @@
 .pages-navigation__link {
+  box-sizing: border-box;
+  padding: 0 10px 0 10px;
+  border-right: 1px solid rgba(236, 235, 232, 1);
+  border-left: 1px solid rgba(236, 235, 232, 1);
+  border-radius: 12px;
+
   color: #242424;
   text-decoration: none;
+}
+
+.pages-navigation__link:hover {
+  border-color: rgba(36, 36, 36, 1);
 }
