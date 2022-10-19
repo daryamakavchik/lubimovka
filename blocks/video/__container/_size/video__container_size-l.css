@@ -4,3 +4,9 @@
   overflow: hidden;
   margin: 0 auto;
 }
+
+@media screen and (max-width: 1200px){
+    .video__container_size-l {
+       max-width: 366px;
+    }
+}

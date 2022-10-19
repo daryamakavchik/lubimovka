@@ -9,3 +9,11 @@
     letter-spacing: -0.01em;
     color: --text-dark;
 }
+
+@media screen and (max-width: 1200px){
+    .videos__title{
+        font-size: 28px;
+        line-height: 32px;
+        margin: 0 auto 32px auto;
+    }
+}

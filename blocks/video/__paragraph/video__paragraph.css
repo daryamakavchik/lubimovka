@@ -11,3 +11,11 @@
     font-feature-settings: 'ss01' on;
     color: --text-dark;
 }
+
+@media screen and (max-width: 1200px){
+    .video__paragraph{
+        font-size: 20px;
+        line-height: 28px;
+        max-height: 756px;
+    }
+}

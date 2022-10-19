@@ -5,3 +5,9 @@
     align-items: center;
     gap: 58px;
 }
+
+@media screen and (max-width: 1200px){
+    .videos__grid{
+        gap: 30px;
+    }
+}
