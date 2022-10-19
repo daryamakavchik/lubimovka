@@ -5,10 +5,9 @@
 
 @import url(../blocks/logo/logo.css);
 
-@import url(../blocks/pages/pages.css);
-@import url(../blocks/pages/__links-item/pages__links-item.css);
-@import url(../blocks/pages/__links/pages__links.css);
-@import url(../blocks/pages/__link/pages__link.css);
+@import url(../blocks/pages-navigation/__links-item/pages-navigation__links-item.css);
+@import url(../blocks/pages-navigation/__links/pages-navigation__links.css);
+@import url(../blocks/pages-navigation/__link/pages-navigation__link.css);
 
 @import url(../blocks/social-media/social-media.css);
 @import url(../blocks/social-media/__links-item/social-media__links-item.css);
