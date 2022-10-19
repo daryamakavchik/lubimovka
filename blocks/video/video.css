@@ -1,0 +1,22 @@
+.video {
+    position: relative;
+    width: 100%;
+    max-width: 420px;
+    max-height: 236px;
+    padding-bottom: 56.25%;
+    background-color: #000000;
+}
+
+.video:hover .video__button-shape,
+.video__button:focus .video__button-shape {
+    fill: #ff0000;
+    fill-opacity: 1;
+}
+
+.video_enabled {
+    cursor: pointer;
+}
+
+.video_enabled .video__button {
+    display: block;
+}

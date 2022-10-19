@@ -1,34 +1,136 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="keywords" content="любимовка, театр, драматургия">
-  <title>Любимовка</title>
-  <link rel="stylesheet" href="pages/index.css" />
-</head>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="keywords" content="любимовка, театр, драматургия" />
+    <title>Любимовка</title>
+    <link rel="stylesheet" href="pages/index.css" />
+  </head>
   <body>
     <main class="content">
-    <section class="intro">
-      <div class="intro__button" id="button">
-        <p class="intro__button-text">ПРОЕКТЫ</p>
-        <img class="intro__button-icon" src="./images/leftarrow.svg" alt="Иконка стрелки" />
-      </div>
-        <h1 class="intro__title">Любимовка.<br>Ещё</h1>
-      <div class="intro__content">
-        <p class="intro__content-paragraph">Межсезонные читки и обсуждение пьес из списка отмеченных отборщиками Любимовки.
-          <!-- Можно слушать, обсуждать и даже участвовать. -->
+      <section class="intro">
+        <div class="intro__button" id="button">
+          <p class="intro__button-text">ПРОЕКТЫ</p>
+          <img
+            class="intro__button-icon"
+            src="./images/leftarrow.svg"
+            alt="Иконка стрелки"
+          />
+        </div>
+        <h1 class="intro__title">Любимовка.<br />Ещё</h1>
+        <div class="intro__content">
+          <p class="intro__content-paragraph">
+            Межсезонные читки и обсуждение пьес из списка отмеченных отборщиками
+            Любимовки.
+            <!-- Можно слушать, обсуждать и даже участвовать. -->
+          </p>
+          <div class="intro__image"></div>
+        </div>
+      </section>
+      <section class="project">
+        <h2 class="project__title">О проекте</h2>
+        <p class="project__paragraph">
+          За первый сезон проекта организаторы провели 17 мероприятий вместе с
+          режиссёрами и актёрами московских театров: Театра.doc, Театрального
+          Центра им. Вс. Мейерхольда, Гоголь-центра, Электротеатра
+          «Станиславский», Ленкома.
         </p>
-        <div class="intro__image"></div>
-      </div>
-    </section>
-    <section class="project">
-      <h2 class="project__title">О проекте</h2>
-      <p class="project__paragraph">За первый сезон проекта организаторы провели 17 мероприятий вместе с 
-        режиссёрами и актёрами московских театров: Театра.doc, Театрального Центра им. Вс. Мейерхольда, 
-        Гоголь-центра, Электротеатра «Станиславский», Ленкома.</p>
-    </section>
-  </main>
+      </section>
+      <section class="videos">
+        <h2 class="videos__title">Заголовок блока с тремя видео</h2>
+        <div class="videos__grid">
+          <div class="video">
+            <a
+              class="video__link"
+              href="https://www.youtube.com/watch?v=0HXW-J_ndM8&list=PL9Pz6qSnYlVFXVBx7rJMKPN9bSPpnUaUo&ab_channel=%D0%9D%D0%B5%D0%B7%D0%B0%D0%B2%D0%B8%D1%81%D0%B8%D0%BC%D1%8B%D0%B9%D1%84%D0%B5%D1%81%D1%82%D0%B8%D0%B2%D0%B0%D0%BB%D1%8C%D0%9B%D1%8E%D0%B1%D0%B8%D0%BC%D0%BE%D0%B2%D0%BA%D0%B0"
+            >
+              <picture>
+                <source
+                  srcset="
+                    https://i.ytimg.com/vi_webp/0HXW-J_ndM8/maxresdefault.webp
+                  "
+                  type="image/webp"
+                />
+                <img
+                  class="video__media"
+                  src="https://i.ytimg.com/vi/0HXW-J_ndM8/maxresdefault.jpg"
+                  alt="1. Пилот, разборы, ответы и лайвы"
+                />
+              </picture>
+            </a>
+            <button class="video__button" aria-label="Запустить видео">
+              <svg width="68" height="48" viewBox="0 0 68 48">
+                <path
+                  class="video__button-shape"
+                  d="M66.52,7.74c-0.78-2.93-2.49-5.41-5.42-6.19C55.79,.13,34,0,34,0S12.21,.13,6.9,1.55 C3.97,2.33,2.27,4.81,1.48,7.74C0.06,13.05,0,24,0,24s0.06,10.95,1.48,16.26c0.78,2.93,2.49,5.41,5.42,6.19 C12.21,47.87,34,48,34,48s21.79-0.13,27.1-1.55c2.93-0.78,4.64-3.26,5.42-6.19C67.94,34.95,68,24,68,24S67.94,13.05,66.52,7.74z"
+                ></path>
+                <path class="video__button-icon" d="M 45,24 27,14 27,34"></path>
+              </svg>
+            </button>
+          </div>
+          <div class="video">
+            <a
+              class="video__link"
+              href="https://www.youtube.com/watch?v=0HXW-J_ndM8&list=PL9Pz6qSnYlVFXVBx7rJMKPN9bSPpnUaUo&ab_channel=%D0%9D%D0%B5%D0%B7%D0%B0%D0%B2%D0%B8%D1%81%D0%B8%D0%BC%D1%8B%D0%B9%D1%84%D0%B5%D1%81%D1%82%D0%B8%D0%B2%D0%B0%D0%BB%D1%8C%D0%9B%D1%8E%D0%B1%D0%B8%D0%BC%D0%BE%D0%B2%D0%BA%D0%B0"
+            >
+              <picture>
+                <source
+                  srcset="
+                    https://i.ytimg.com/vi_webp/0HXW-J_ndM8/maxresdefault.webp
+                  "
+                  type="image/webp"
+                />
+                <img
+                  class="video__media"
+                  src="https://i.ytimg.com/vi/0HXW-J_ndM8/maxresdefault.jpg"
+                  alt="1. Пилот, разборы, ответы и лайвы"
+                />
+              </picture>
+            </a>
+            <button class="video__button" aria-label="Запустить видео">
+              <svg width="68" height="48" viewBox="0 0 68 48">
+                <path
+                  class="video__button-shape"
+                  d="M66.52,7.74c-0.78-2.93-2.49-5.41-5.42-6.19C55.79,.13,34,0,34,0S12.21,.13,6.9,1.55 C3.97,2.33,2.27,4.81,1.48,7.74C0.06,13.05,0,24,0,24s0.06,10.95,1.48,16.26c0.78,2.93,2.49,5.41,5.42,6.19 C12.21,47.87,34,48,34,48s21.79-0.13,27.1-1.55c2.93-0.78,4.64-3.26,5.42-6.19C67.94,34.95,68,24,68,24S67.94,13.05,66.52,7.74z"
+                ></path>
+                <path class="video__button-icon" d="M 45,24 27,14 27,34"></path>
+              </svg>
+            </button>
+          </div>
+          <div class="video">
+            <a
+              class="video__link"
+              href="https://www.youtube.com/watch?v=0HXW-J_ndM8&list=PL9Pz6qSnYlVFXVBx7rJMKPN9bSPpnUaUo&ab_channel=%D0%9D%D0%B5%D0%B7%D0%B0%D0%B2%D0%B8%D1%81%D0%B8%D0%BC%D1%8B%D0%B9%D1%84%D0%B5%D1%81%D1%82%D0%B8%D0%B2%D0%B0%D0%BB%D1%8C%D0%9B%D1%8E%D0%B1%D0%B8%D0%BC%D0%BE%D0%B2%D0%BA%D0%B0"
+            >
+              <picture>
+                <source
+                  srcset="
+                    https://i.ytimg.com/vi_webp/0HXW-J_ndM8/maxresdefault.webp
+                  "
+                  type="image/webp"
+                />
+                <img
+                  class="video__media"
+                  src="https://i.ytimg.com/vi/0HXW-J_ndM8/maxresdefault.jpg"
+                  alt="1. Пилот, разборы, ответы и лайвы"
+                />
+              </picture>
+            </a>
+            <button class="video__button" aria-label="Запустить видео">
+              <svg width="68" height="48" viewBox="0 0 68 48">
+                <path
+                  class="video__button-shape"
+                  d="M66.52,7.74c-0.78-2.93-2.49-5.41-5.42-6.19C55.79,.13,34,0,34,0S12.21,.13,6.9,1.55 C3.97,2.33,2.27,4.81,1.48,7.74C0.06,13.05,0,24,0,24s0.06,10.95,1.48,16.26c0.78,2.93,2.49,5.41,5.42,6.19 C12.21,47.87,34,48,34,48s21.79-0.13,27.1-1.55c2.93-0.78,4.64-3.26,5.42-6.19C67.94,34.95,68,24,68,24S67.94,13.05,66.52,7.74z"
+                ></path>
+                <path class="video__button-icon" d="M 45,24 27,14 27,34"></path>
+              </svg>
+            </button>
+          </div>
+        </div>
+      </section>
+    </main>
+    <script src="./scripts/video.js"></script>
   </body>
 </html>
