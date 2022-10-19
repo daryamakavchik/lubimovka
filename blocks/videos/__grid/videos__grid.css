@@ -1,5 +1,7 @@
 .videos__grid{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 59px;
+    grid-template-columns: repeat(auto-fit, minmax(420px, 420px));
+    justify-content: center;
+    align-items: center;
+    gap: 58px;
 }
