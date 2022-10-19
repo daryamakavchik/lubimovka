@@ -5,6 +5,7 @@
 
 @import url(../blocks/logo/logo.css);
 
+@import url(../blocks/pages-navigation/pages-navigation.css);
 @import url(../blocks/pages-navigation/__links-item/pages-navigation__links-item.css);
 @import url(../blocks/pages-navigation/__links/pages-navigation__links.css);
 @import url(../blocks/pages-navigation/__link/pages-navigation__link.css);
@@ -13,3 +14,5 @@
 @import url(../blocks/social-media/__links-item/social-media__links-item.css);
 @import url(../blocks/social-media/__links/social-media__links.css);
 @import url(../blocks/social-media/__link/social-media__link.css);
+
+@import url(../blocks/support-button/support-button.css);
