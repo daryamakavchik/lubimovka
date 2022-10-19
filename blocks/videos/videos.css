@@ -1,10 +1,10 @@
-.videos{
-    margin: 0;
-    padding: 98px 32px 0 32px;
+.videos {
+  margin: 0;
+  padding: 98px 32px 0 32px;
 }
 
-@media screen and (max-width: 1200px){
-    .videos{
-        padding: 57px 24px 0 24px;
-    }
+@media screen and (max-width: 1200px) {
+  .videos {
+    padding: 57px 24px 0 24px;
+  }
 }
