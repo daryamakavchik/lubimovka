@@ -18,3 +18,6 @@
 @import url(../blocks/social-media/__link/social-media__link.css);
 
 @import url(../blocks/support-button/support-button.css);
+
+@import url(../blocks/burger-menu/burger-menu.css);
+@import url(../blocks/burger-menu/__item/burger-menu__item.css);

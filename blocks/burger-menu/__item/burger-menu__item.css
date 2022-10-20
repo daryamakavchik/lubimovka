@@ -1,0 +1,32 @@
+.burger-menu__item {
+  position: relative;
+  margin: 0 auto;
+  
+  display: block;
+  width: 20px;
+  height: 2px;
+  background-color: rgba(236, 235, 232, 1);
+}
+
+.burger-menu__item::before,
+.burger-menu__item::after {
+  position: absolute;
+  
+  content: "";
+
+  background-color: rgba(236, 235, 232, 1);
+}
+
+.burger-menu__item::before {
+  top: -6px;
+  left: 0;
+  width: 20px;
+  height: 2px;
+}
+
+.burger-menu__item::after {
+  bottom: -6px;
+  left: 0;
+  width: 20px;
+  height: 2px;
+}

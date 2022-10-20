@@ -7,3 +7,9 @@
 
   text-transform: uppercase;
 }
+
+@media screen and (max-width: 414px) {
+  .support-button {
+    display: none;
+  }
+}
