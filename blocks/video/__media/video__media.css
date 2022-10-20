@@ -5,9 +5,3 @@
     width: 100%;
     border: none;
 }
-
-@media screen and (max-width: 1200px){
-    .video__media{
-        max-width: 366px;
-    }
-}
