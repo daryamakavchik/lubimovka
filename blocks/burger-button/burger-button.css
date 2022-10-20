@@ -1,5 +1,6 @@
-.burger-menu {
+.burger-button {
   position: absolute;
+  z-index: 2;
   top: 0;
   right: 0;
 
@@ -14,7 +15,7 @@
 }
 
 @media screen and (max-width: 414px) {
-  .burger-menu {
+  .burger-button {
     display: block;
   }
 }

@@ -1,4 +1,4 @@
-.burger-menu__item {
+.burger-button__item {
   position: relative;
   margin: 0 auto;
   
@@ -6,25 +6,29 @@
   width: 20px;
   height: 2px;
   background-color: rgba(236, 235, 232, 1);
+
+  transition: .2s;
 }
 
-.burger-menu__item::before,
-.burger-menu__item::after {
+.burger-button__item::before,
+.burger-button__item::after {
   position: absolute;
   
   content: "";
 
   background-color: rgba(236, 235, 232, 1);
+
+  transition: .2s;
 }
 
-.burger-menu__item::before {
+.burger-button__item::before {
   top: -6px;
   left: 0;
   width: 20px;
   height: 2px;
 }
 
-.burger-menu__item::after {
+.burger-button__item::after {
   bottom: -6px;
   left: 0;
   width: 20px;

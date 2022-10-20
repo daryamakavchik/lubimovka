@@ -19,5 +19,8 @@
 
 @import url(../blocks/support-button/support-button.css);
 
-@import url(../blocks/burger-menu/burger-menu.css);
-@import url(../blocks/burger-menu/__item/burger-menu__item.css);
+@import url(../blocks/burger-button/burger-button.css);
+@import url(../blocks/burger-button/__item/burger-button__item.css);
+
+@import url(../blocks/mobile-menu-popup/mobile-menu-popup.css);
+@import url(../blocks/mobile-menu-popup/_open/mobile-menu-popup_open.css);
