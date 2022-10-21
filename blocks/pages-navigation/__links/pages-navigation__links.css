@@ -9,3 +9,11 @@
 
   padding: 0 29px 0 0;
 }
+
+@media screen and (max-width: 414px) {
+  .pages-navigation__links {
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 0;
+  }
+}

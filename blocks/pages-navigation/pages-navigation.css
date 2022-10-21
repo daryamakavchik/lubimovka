@@ -1,5 +1,8 @@
 @media screen and (max-width: 414px) {
   .pages-navigation {
+    grid-area: pages-navigation;
     display: none;
+    font-size:  25px;
+    line-height: 1.16;
   }
 }

@@ -9,3 +9,15 @@
 
   padding: 0;
 }
+
+@media screen and (max-width: 414px) {
+  .social-media__links {
+    display: grid;
+    grid-template-areas: 
+    "fb fb"
+    "inst ytube"
+    "tlgrm vk";
+    padding: 0;
+    column-gap: 0;
+  }
+}

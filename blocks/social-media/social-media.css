@@ -6,5 +6,6 @@
 @media screen and (max-width: 414px) {
   .social-media {
     display: none;
+    grid-area: social-media;
   }
 }

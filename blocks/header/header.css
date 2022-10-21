@@ -17,5 +17,7 @@
 @media screen and (max-width: 414px) {
   .header {
     border-bottom: none;
+    margin: 0;
+    padding: 0;
   }
 }
