@@ -7,6 +7,10 @@ function mobileMenuHandler() {
   mobileMenuPopup.classList.toggle('mobile-menu-popup_open');
 }
 
+function burgerButtonHandler() {
+  burgerButton.classList.toggle('burger-button_active');
+}
+
 function renderMobileMenu() {
   mobileMenuPopup.appendChild(pagesNavigation);
   mobileMenuPopup.appendChild(socialMedia);
@@ -15,6 +19,7 @@ function renderMobileMenu() {
 }
 
 burgerButton.addEventListener('click', () => {
+  burgerButtonHandler();
   mobileMenuHandler();
   renderMobileMenu();
 });

@@ -1,0 +1,11 @@
+.burger-button_active .burger-button__item {
+  transform: scale(0);
+}
+
+.burger-button_active .burger-button__item:first-of-type {
+  transform: translateY(7px) rotate(45deg);
+}
+
+.burger-button_active .burger-button__item:last-of-type {
+  transform: translateY(-7px) rotate(-45deg);
+}
