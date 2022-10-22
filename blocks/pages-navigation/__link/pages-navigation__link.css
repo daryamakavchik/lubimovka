@@ -12,3 +12,12 @@
 .pages-navigation__link:hover {
   border-color: rgba(36, 36, 36, 1);
 }
+
+@media screen and (max-width: 414px) {
+  .pages-navigation__link {
+    padding: 0 0 0 30px;
+  }
+  .pages-navigation__link:hover {
+    border: 1px solid rgba(236, 235, 232, 1);
+  }
+}

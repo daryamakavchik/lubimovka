@@ -3,6 +3,8 @@
 
 @import url(../blocks/root/root.css);
 
+@import url(../blocks/header-margin/header-margin.css);
+
 @import url(../blocks/header/header.css);
 
 @import url(../blocks/logo/logo.css);
@@ -17,11 +19,6 @@
 @import url(../blocks/social-media/__links-item/social-media__links-item.css);
 @import url(../blocks/social-media/__links/social-media__links.css);
 @import url(../blocks/social-media/__link/social-media__link.css);
-@import url(../blocks/social-media/__links-item/_type/social-media__links-item_type_fb.css);
-@import url(../blocks/social-media/__links-item/_type/social-media__links-item_type_inst.css);
-@import url(../blocks/social-media/__links-item/_type/social-media__links-item_type_tlgrm.css);
-@import url(../blocks/social-media/__links-item/_type/social-media__links-item_type_ytube.css);
-@import url(../blocks/social-media/__links-item/_type/social-media__links-item_type_vk.css);
 @import url(../blocks/social-media/_mobile/social-media_mobile.css);
 
 @import url(../blocks/support-button/support-button.css);

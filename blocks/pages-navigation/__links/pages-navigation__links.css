@@ -1,13 +1,13 @@
 .pages-navigation__links {
   display: flex;
-  height: 100%;
   flex-wrap: wrap;
-  column-gap: 24px;
+  flex-grow: 1;
+  column-gap: 22px;
+  row-gap: 10px;
   justify-content: space-between;
-  align-items: center;
   margin: 0;
 
-  padding: 0 29px 0 0;
+  padding: 10px 29px 0 0;
 }
 
 @media screen and (max-width: 414px) {
@@ -15,5 +15,6 @@
     flex-direction: column;
     justify-content: flex-start;
     padding: 0;
+    row-gap: 25px;
   }
 }

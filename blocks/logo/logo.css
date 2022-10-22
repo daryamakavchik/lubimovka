@@ -1,6 +1,6 @@
 .logo {
   position: absolute;
-  top: 15px;
+  top: 4px;
   left: 30px;
   
   width: 43px;
@@ -10,6 +10,7 @@
 @media screen and (max-width: 414px) {
   .logo {
     z-index: 2;
+    top: 11px;
     
     grid-area: logo;
   }
