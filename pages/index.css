@@ -30,3 +30,9 @@
 
 @import url(../blocks/mobile-menu-popup/mobile-menu-popup.css);
 @import url(../blocks/mobile-menu-popup/_open/mobile-menu-popup_open.css);
+
+@import url(../blocks/gallery-section/gallery-section.css);
+@import url(../blocks/gallery-section/__title/gallery-section__title.css);
+@import url(../blocks/gallery/gallery.css);
+@import url(../blocks/gallery/__item/galery__item.css);
+@import url(../blocks/gallery/__item/galery__image.css);
