@@ -7,6 +7,22 @@
   border: none;
   border-radius: 100%;
   background-color: #ECEBE8;
+  /* outline: 1px solid black;
+  outline-offset: -8px; */
+  background-repeat: no-repeat;
+  background-position: center;
 
   cursor: pointer;
+}
+
+.photo-popup__flip-button::before {
+  position: absolute;
+  top: 9px;
+  left: 9px;
+  
+  width: 48px;
+  height: 48px;
+  border-radius: 100%;
+
+  content: '';
 }

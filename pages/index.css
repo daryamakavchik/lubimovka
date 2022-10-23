@@ -44,5 +44,6 @@
 @import url(../blocks/photo-popup/__flip-button/_direction/photo-popup__flip-button_direction_left.css);
 @import url(../blocks/photo-popup/__flip-button/_direction/photo-popup__flip-button_direction_right.css);
 
+@import url(../blocks/photo-popup/_opened/photo-popup_opened.css);
 @import url(../blocks/photo-popup/__image/photo-popup__image.css);
 @import url(../blocks/photo-popup/__close-button/photo-popup__close-button.css);
