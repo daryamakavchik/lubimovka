@@ -1,6 +1,6 @@
 .videos__title{
-    margin: 0 0 45px 330px;
-    max-width: 568px;
+    margin: 0 calc(100vw / 2 - 390px) 45px calc(100vw / 2 - 390px);
+    max-width: 716px;
     font-family: 'Neue Machina';
     font-style: normal;
     font-weight: 400;
