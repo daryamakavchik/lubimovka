@@ -1,0 +1,7 @@
+.photo-popup__container {
+  position: relative;
+  
+  display: flex;
+  max-width: 780px;
+  min-height: 545px;
+}
