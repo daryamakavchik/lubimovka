@@ -28,7 +28,6 @@
 @import url(../blocks/burger-button/__field/burger-button__field.css);
 @import url(../blocks/burger-button/__item/burger-button__item.css);
 
-
 @import url(../blocks/gallery-section/gallery-section.css);
 @import url(../blocks/gallery-section/__title/gallery-section__title.css);
 @import url(../blocks/gallery/gallery.css);
@@ -41,6 +40,7 @@
 @import url(../blocks/photo-popup/photo-popup.css);
 @import url(../blocks/photo-popup/__container/photo-popup__container.css);
 @import url(../blocks/photo-popup/__flip-button/photo-popup__flip-button.css);
+@import url(../blocks/photo-popup/__flip-button/_hidden/photo-popup__flip-button_hidden.css);
 @import url(../blocks/photo-popup/__flip-button/_direction/photo-popup__flip-button_direction_left.css);
 @import url(../blocks/photo-popup/__flip-button/_direction/photo-popup__flip-button_direction_right.css);
 
