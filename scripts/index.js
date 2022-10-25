@@ -72,18 +72,30 @@ function openGalleryImage(image) {
   photoPopupImage.src = image.src;
 }
 
+function removeButtonOfFirstImage(indexOfImage) {
+  if (indexOfImage === 0) {
+    photoPopupFlipButtonDirectionLeft.classList.add('photo-popup__flip-button_hidden');
+  } else {
+    photoPopupFlipButtonDirectionLeft.classList.remove('photo-popup__flip-button_hidden');
+  }
+}
+
+function removeButtonOfLastImage(indexOfImage) {
+  if (indexOfImage === galleryImages.length - 1) {
+    photoPopupFlipButtonDirectionRight.classList.add('photo-popup__flip-button_hidden');
+  } else {
+    photoPopupFlipButtonDirectionRight.classList.remove('photo-popup__flip-button_hidden');
+  }
+} 
+
 //Слушатель нажатия на фото галереи
 galleryImages.forEach((galleryImage) => {
   galleryImage.addEventListener("click", () => {
     openPopup(photoPopup);
     openGalleryImage(galleryImage);
     indexOfGalleryImage = galleryImages.indexOf(galleryImage);
-    // if (indexOfGalleryImage === 0) {
-    //   photoPopupFlipButtonDirectionLeft.classList.add('photo-popup__flip-button_hidden');
-    // }
-    // if (indexOfGalleryImage === galleryImages.length - 1) {
-    //   photoPopupFlipButtonDirectionRight.classList.add('photo-popup__flip-button_hidden');
-    // }
+    removeButtonOfFirstImage(indexOfGalleryImage);
+    removeButtonOfLastImage(indexOfGalleryImage);
   });
 });
 
@@ -91,10 +103,14 @@ galleryImages.forEach((galleryImage) => {
 photoPopupFlipButtonDirectionRight.addEventListener("click", () => {
   photoPopupImage.src = galleryImages[indexOfGalleryImage + 1].src;
   indexOfGalleryImage = indexOfGalleryImage + 1;
+  removeButtonOfFirstImage(indexOfGalleryImage);
+  removeButtonOfLastImage(indexOfGalleryImage);
 });
 
 // Обработчик кнопки "листать фото влево"
 photoPopupFlipButtonDirectionLeft.addEventListener("click", () => {
   photoPopupImage.src = galleryImages[indexOfGalleryImage - 1].src;
   indexOfGalleryImage = indexOfGalleryImage - 1;
+  removeButtonOfFirstImage(indexOfGalleryImage);
+  removeButtonOfLastImage(indexOfGalleryImage);
 });
