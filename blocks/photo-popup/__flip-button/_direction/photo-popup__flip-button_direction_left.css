@@ -1,9 +1,12 @@
 .photo-popup__flip-button_direction_left {
   left: -98px;
-
-  background-image: url(../../../../images/arrow-left.svg);
 }
 
 .photo-popup__flip-button_direction_left::before {
   border-left: 1px solid black;
+}
+
+
+.photo-popup__flip-button_direction_left:hover::before {
+  border: 1px solid #ECEBE8;
 }

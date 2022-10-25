@@ -2,27 +2,35 @@
   position: absolute;
   top: calc(50% - 33px);
   
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 66px;
   height: 66px;
   border: none;
   border-radius: 100%;
   background-color: #ECEBE8;
-  /* outline: 1px solid black;
-  outline-offset: -8px; */
-  background-repeat: no-repeat;
-  background-position: center;
 
   cursor: pointer;
+  transition: .3s ease-out;
 }
 
 .photo-popup__flip-button::before {
   position: absolute;
   top: 9px;
-  left: 9px;
+  left: 8px;
   
   width: 48px;
   height: 48px;
   border-radius: 100%;
 
   content: '';
+}
+
+.photo-popup__flip-button:hover {
+  background-color: black;
+}
+
+.photo-popup__flip-button:hover .photo-popup__flip-button-arrow {
+  fill:  #ECEBE8;
 }
