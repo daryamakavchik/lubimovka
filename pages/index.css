@@ -1,2 +1,10 @@
 @import url(../vendor/normalize.css);
-@import url(../vendor/fonts.css);
+@import url(../vendor/fonts/fonts.css);
+
+@import url(../blocks/collab/collab.css);
+@import url(../blocks/collab);
+@import url(../blocks/collab/__star/collab__star.css);
+@import url(../blocks/collab/__subtitle/collab__subtitle.css);
+@import url(../blocks/collab/__title/collab__title.css);
+@import url(../blocks/collab/__text-box/collab__text-box.css);
+@import url(../blocks/collab/__email-link/collab__email-link.css);
