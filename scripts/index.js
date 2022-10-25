@@ -15,14 +15,17 @@ const photoPopupFlipButtonDirectionLeft = document.querySelector(
 );
 let indexOfGalleryImage;
 
+// Обработчик открытия мобильного меню
 function handleMobileMenu() {
   mobileMenuPopup.classList.toggle("mobile-menu-popup_open");
 }
 
+// Обработчик кнопки-гамбургера
 function handleBurgerButton() {
   burgerButton.classList.toggle("burger-button_active");
 }
 
+// Отрисовщик мобильного меню
 function renderMobileMenu() {
   mobileMenuPopup.appendChild(pagesNavigation);
   mobileMenuPopup.appendChild(socialMedia);
@@ -30,6 +33,7 @@ function renderMobileMenu() {
   socialMedia.classList.add("social-media_mobile");
 }
 
+// Слушатель нажатия на кнопку-бургер
 burgerButton.addEventListener("click", () => {
   handleBurgerButton();
   handleMobileMenu();

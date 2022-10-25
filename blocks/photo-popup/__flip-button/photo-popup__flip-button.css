@@ -1,10 +1,11 @@
 .photo-popup__flip-button {
   position: absolute;
   top: calc(50% - 33px);
-  
+
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 0;
   width: 66px;
   height: 66px;
   border: none;
@@ -28,9 +29,15 @@
 }
 
 .photo-popup__flip-button:hover {
-  background-color: black;
+  background-color: #242424;
 }
 
 .photo-popup__flip-button:hover .photo-popup__flip-button-arrow {
   fill:  #ECEBE8;
+}
+
+@media screen and (max-width: 949px) {
+  .photo-popup__flip-button {
+    top: -75px;
+  }
 }
