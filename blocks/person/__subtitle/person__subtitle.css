@@ -1,0 +1,10 @@
+.person__subtitle {
+  margin: 0;
+  width: fit-content;
+  align-self: flex-end;
+  
+  font-family: 'Formular', Arial, sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 1.375;
+}

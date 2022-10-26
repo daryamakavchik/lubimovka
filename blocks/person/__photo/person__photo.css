@@ -1,0 +1,6 @@
+.person__photo {
+  max-width: 210px;
+  max-height: 265px;
+  object-fit: cover;
+  aspect-ratio: 210/265;
+}

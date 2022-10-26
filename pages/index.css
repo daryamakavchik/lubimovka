@@ -47,3 +47,11 @@
 @import url(../blocks/photo-popup/_opened/photo-popup_opened.css);
 @import url(../blocks/photo-popup/__image/photo-popup__image.css);
 @import url(../blocks/photo-popup/__close-button/photo-popup__close-button.css);
+
+@import url(../blocks/persons/__title/persons__title.css);
+@import url(../blocks/persons/__container/persons__container.css);
+
+@import url(../blocks/person/person.css);
+@import url(../blocks/person/__photo/person__photo.css);
+@import url(../blocks/person/__title/person__title.css);
+@import url(../blocks/person/__subtitle/person__subtitle.css);
