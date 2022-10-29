@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="keywords" content="любимовка, театр, драматургия">
   <title>Любимовка</title>
-  <link rel="stylesheet" href="pages/index.css" />
+  <link rel="stylesheet" href="pages/index.css">
 </head>
 <body class="root">
   <header class="header header-margin">
@@ -60,11 +60,11 @@
     </nav>
     <button class="support-button" type="button" aria-label="Кнопка 'Поддержать'">+&nbsp;поддержать</button>
     <button class="burger-button" type="button">
-      <div class="burger-button__field">
+      <span class="burger-button__field">
         <span class="burger-button__item"></span>
         <span class="burger-button__item"></span>
         <span class="burger-button__item"></span>
-      </div>
+      </span>
     </button>
   </header>
   <main>
@@ -151,7 +151,7 @@
           <path  class="photo-popup__flip-button-arrow" fill-rule="evenodd" clip-rule="evenodd" d="M7.72322e-08 6.47656L0.724826 7.20139L6.52344 13L7.22631 12.2971L1.90563 6.97646L21 6.97646L21 5.97646L1.94976 5.97646L7.20139 0.724827L6.47656 2.19873e-08L0.702867 5.77369L7.72322e-08 6.47656Z" fill="#242424"/>
         </svg>
       </button>
-      <img class="photo-popup__image" src="./images/gallery_photo_1.jpg">
+      <img class="photo-popup__image" src="./images/gallery_photo_1.jpg" alt="Полноэкранное фото">
       <button class="photo-popup__flip-button photo-popup__flip-button_direction_right">
         <svg width="21" height="13" viewBox="0 0 21 13" fill="none" xmlns="http://www.w3.org/2000/svg">
           <path class="photo-popup__flip-button-arrow" fill-rule="evenodd" clip-rule="evenodd" d="M21 6.47656L20.2752 7.20139L14.4766 13L13.7737 12.2971L19.0944 6.97646L-3.63036e-07 6.97646L-3.10999e-07 5.97646L19.0502 5.97646L13.7986 0.724826L14.5234 -2.37804e-07L20.2971 5.77369L21 6.47656Z" fill="#242424"/>
@@ -161,6 +161,7 @@
     </div>
   </div>
   <script src="./scripts/index.js"></script>
-  <script src="./scripts/swiper.js"></script>
+  <script src="./scripts/mobile-menu.js"></script>
+  <script src="./scripts/gallery-slider.js"></script>
 </body>
 </html>

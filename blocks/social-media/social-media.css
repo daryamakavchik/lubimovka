@@ -3,9 +3,10 @@
   border-left: 1px solid rgba(36, 36, 36, 1);
 }
 
-@media screen and (max-width: 414px) {
+@media screen and (max-width: 449px) {
   .social-media {
     display: none;
     grid-area: social-media;
+    border: none;
   }
 }

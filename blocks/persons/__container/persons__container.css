@@ -1,11 +1,24 @@
 .persons__container {
   margin: 0 16.6% 0 18.75%;
-  overflow: hidden;
-  object-position: 0 0;
 }
 
-/* @media screen and (max-width: 414px) {
+@media screen and (max-width: 1399px) {
   .persons__container {
     width: 100%;
+    margin: 0 auto;
   }
-} */
+}
+
+@media screen and (max-width: 449px) {
+  .persons__container {
+    margin: 0;
+    width: 100%;
+    overflow-x: scroll;
+    scroll-snap-type: proximity;
+    scrollbar-width: none;
+  }
+
+  .persons__container::-webkit-scrollbar {
+    width: 0;
+  }
+}

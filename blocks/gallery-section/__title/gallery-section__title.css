@@ -7,3 +7,13 @@
   font-size: 40px;
   line-height: 1;
 }
+
+@media screen and (max-width: 949px) {
+  .gallery-section__title {
+    margin: 100px 21px 22px 24px;
+    width: calc(100% - 45px);
+    
+    font-size: 28px;
+    line-height: 1.14;
+  }
+}

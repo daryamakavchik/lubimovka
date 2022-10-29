@@ -1,9 +1,10 @@
 .pages-navigation {
   display: flex;
   flex-wrap: wrap;
+  height: fit-content;
 }
 
-@media screen and (max-width: 414px) {
+@media screen and (max-width: 449px) {
   .pages-navigation {
     grid-area: pages-navigation;
     display: none;
