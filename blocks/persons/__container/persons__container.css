@@ -1,5 +1,11 @@
 .persons__container {
-  display: flex;
   margin: 0 16.6% 0 18.75%;
-  gap: 30px;
+  overflow: hidden;
+  object-position: 0 0;
 }
+
+/* @media screen and (max-width: 414px) {
+  .persons__container {
+    width: 100%;
+  }
+} */

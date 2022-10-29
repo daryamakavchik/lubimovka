@@ -50,6 +50,7 @@
 
 @import url(../blocks/persons/__title/persons__title.css);
 @import url(../blocks/persons/__container/persons__container.css);
+@import url(../blocks/persons/__slidetrack/persons__slidetrack.css);
 
 @import url(../blocks/person/person.css);
 @import url(../blocks/person/__photo/person__photo.css);

@@ -1,0 +1,12 @@
+.persons__slidetrack {
+  display: flex;
+  gap: 30px;
+  width: fit-content;
+  /* transform: translateX(); */
+}
+
+/* @media screen and (max-width: 414px) {
+  .persons__slidetrack {
+    padding: 0 25px 0 25px;
+  }
+} */
