@@ -1,0 +1,10 @@
+.photo-popup__container {
+  position: relative;
+  
+  width: 100%;
+  max-width: 780px;
+  max-height: 545px; 
+  aspect-ratio: 357/251;
+  box-sizing: border-box;
+  display: flex;
+}

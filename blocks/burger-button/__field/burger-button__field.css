@@ -1,0 +1,8 @@
+.burger-button__field {
+  display: flex;
+  margin: 0 auto;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 16px;
+  width: 20px;
+}

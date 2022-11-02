@@ -1,0 +1,17 @@
+.photo-popup__flip-button_direction_right {
+  right: -98px;
+}
+
+.photo-popup__flip-button_direction_right::before {
+  border-right: 1px solid black;
+}
+
+.photo-popup__flip-button_direction_right:hover::before {
+  border: 1px solid #ECEBE8;
+}
+
+@media screen and (max-width: 949px) {
+  .photo-popup__flip-button_direction_right {
+    right: calc(50% - 100px);
+  }
+}

@@ -1,0 +1,43 @@
+.photo-popup__flip-button {
+  position: absolute;
+  top: calc(50% - 33px);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  width: 66px;
+  height: 66px;
+  border: none;
+  border-radius: 100%;
+  background-color: #ECEBE8;
+
+  cursor: pointer;
+  transition: .3s ease-out;
+}
+
+.photo-popup__flip-button::before {
+  position: absolute;
+  top: 9px;
+  left: 8px;
+  
+  width: 48px;
+  height: 48px;
+  border-radius: 100%;
+
+  content: '';
+}
+
+.photo-popup__flip-button:hover {
+  background-color: #242424;
+}
+
+.photo-popup__flip-button:hover .photo-popup__flip-button-arrow {
+  fill:  #ECEBE8;
+}
+
+@media screen and (max-width: 949px) {
+  .photo-popup__flip-button {
+    top: -75px;
+  }
+}
