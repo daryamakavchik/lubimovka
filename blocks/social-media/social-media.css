@@ -1,0 +1,12 @@
+.social-media {
+  padding: 0 17px 0;
+  border-left: 1px solid rgba(36, 36, 36, 1);
+}
+
+@media screen and (max-width: 449px) {
+  .social-media {
+    display: none;
+    grid-area: social-media;
+    border: none;
+  }
+}

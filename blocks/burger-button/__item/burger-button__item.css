@@ -1,0 +1,23 @@
+.burger-button__item {
+  margin: 0 auto;
+  
+  display: flex;
+  align-items: center;
+  width: 20px;
+  height: 2px;
+  background-color: rgba(236, 235, 232, 1);
+
+  transition: .2s;
+}
+
+.burger-button__item:first-of-type,
+.burger-button__item:last-of-type {
+  width: 20px;
+  height: 2px;
+  
+  content: '';
+
+  background-color: rgba(236, 235, 232, 1);
+
+  transition: .2s;
+}

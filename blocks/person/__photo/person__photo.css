@@ -1,0 +1,12 @@
+.person__photo {
+  max-width: 210px;
+  max-height: 265px;
+  object-fit: cover;
+  aspect-ratio: 210/265;
+}
+
+@media screen and (max-width: 449px) {
+  .person__photo {
+    filter: grayscale(1);
+  }
+}

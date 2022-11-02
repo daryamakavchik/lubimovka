@@ -1,0 +1,4 @@
+.photo-popup__image {
+  aspect-ratio: 357/251; 
+  object-fit: cover;
+}

@@ -1,0 +1,21 @@
+.support-button {
+  box-sizing: border-box;
+  padding: 0 18px 7px;
+  border: none;
+  border-left: 1px solid rgba(36, 36, 36, 1);
+  background-color: rgba(236, 235, 232, 1);
+
+  text-transform: uppercase;
+  font-size: 14px;
+  line-height: 1.2;
+}
+
+.support-button:hover {
+  cursor: pointer;
+}
+
+@media screen and (max-width: 449px) {
+  .support-button {
+    display: none;
+  }
+}

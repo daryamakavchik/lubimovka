@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -12,7 +12,65 @@
     />
     <link rel="stylesheet" href="pages/index.css" />
   </head>
-  <body>
+  <body class="root">
+    <header class="header header-margin">
+      <img class="logo" src="./images/logo.svg" alt="Лого фестиваля Любимовка: контур сердечка">
+      <nav class="pages-navigation">
+        <ul class="pages-navigation__links">
+          <li class="pages-navigation__links-item">
+            <a href="#" target="_blank" class="pages-navigation__link">Афиша</a>
+          </li>
+          <li class="pages-navigation__links-item">
+            <a href="#" target="_blank" class="pages-navigation__link">Библиотека</a>
+          </li>
+          <li class="pages-navigation__links-item">
+            <a href="#" target="_blank" class="pages-navigation__link">Проекты</a>
+          </li>
+          <li class="pages-navigation__links-item">
+            <a href="#" target="_blank" class="pages-navigation__link">История</a>
+          </li>
+          <li class="pages-navigation__links-item">
+            <a href="#" target="_blank" class="pages-navigation__link">Блог</a>
+          </li>
+          <li class="pages-navigation__links-item">
+            <a href="#" target="_blank" class="pages-navigation__link">Новости</a>
+          </li>
+          <li class="pages-navigation__links-item">
+            <a href="#" target="_blank" class="pages-navigation__link">О фестивале</a>
+          </li>
+          <li class="pages-navigation__links-item">
+            <a href="#" target="_blank" class="pages-navigation__link">Контакты</a>
+          </li>
+        </ul>
+      </nav>
+      <nav class="social-media">
+        <ul class="social-media__links">
+          <li class="social-media__links-item">
+            <a href="https://www.facebook.com/festival.lubimovka/" target="_blank" class="social-media__link">fb</a>
+          </li>
+          <li class="social-media__links-item">
+            <a href="https://www.instagram.com/lubimovka/" target="_blank" class="social-media__link ">inst</a>
+          </li>
+          <li class="social-media__links-item">
+            <a href="https://www.youtube.com/channel/UCDZ1HTzBVBxm_vw6tV7C3lg" target="_blank" class="social-media__link">ytube</a>
+          </li>
+          <li class="social-media__links-item">
+            <a href="https://t.me/lubimovka" target="_blank" class="social-media__link">tlgrm</a>
+          </li>
+          <li class="social-media__links-item">
+            <a href="https://vk.com/festival.lubimovka" target="_blank" class="social-media__link">vk</a>
+          </li>
+        </ul>
+      </nav>
+      <button class="support-button" type="button" aria-label="Кнопка 'Поддержать'">+&nbsp;поддержать</button>
+      <button class="burger-button" type="button">
+        <span class="burger-button__field">
+          <span class="burger-button__item"></span>
+          <span class="burger-button__item"></span>
+          <span class="burger-button__item"></span>
+        </span>
+      </button>
+    </header>
     <main class="content">
       <section class="intro">
         <div class="intro__button" id="button">
@@ -281,7 +339,101 @@
           </div>
         </div>
       </section>
+      <section class="gallery-section">
+        <h2 class="gallery-section__title">Заголовок блока с фотографиями</h2>
+        <ul class="gallery">
+          <li class="gallery__item">
+            <img class="gallery__image" src="./images/gallery_photo_1.jpg" alt="Мужчина и женщина на сцене, на фоне оранжевых декораций">
+          </li>
+          <li class="gallery__item">
+            <img class="gallery__image" src="./images/gallery_photo_2.jpg" alt="Женщина читает с листа, сидя на стуле">
+          </li>
+          <li class="gallery__item">
+            <img class="gallery__image" src="./images/gallery_photo_3.jpg" alt="Мужчина читает с листа, сидя на стуле">
+          </li>
+          <li class="gallery__item">
+            <img class="gallery__image" src="./images/gallery_photo_4.jpg" alt="Несколько человек сидят на стульях и читают с листа">
+          </li>
+          <li class="gallery__item">
+            <img class="gallery__image" src="./images/gallery_photo_5.jpg" alt="Зрители спектакля">
+          </li>
+          <li class="gallery__item">
+            <img class="gallery__image" src="./images/gallery_photo_6.jpg" alt="Девушка с русыми длинными волосами в белой блузке">
+          </li>
+          <li class="gallery__item">
+            <img class="gallery__image" src="./images/gallery_photo_7.jpg" alt="Несколько человек сидят  на стульях и читают с листа, черно белое фото, ракурс сбоку">
+          </li>
+          <li class="gallery__item">
+            <img class="gallery__image" src="./images/gallery_photo_8.jpg" alt="Девушка с русыми длинными волосами в кофте цвета морской волны">
+          </li>
+        </ul>
+      </section>
+      <section class="persons">
+        <h2 class="persons__title">
+          Заголовок блока с персонами
+        </h2>
+        <div class="persons__container">
+          <div class="persons__slidetrack">
+            <div class="person">
+              <img class="person__photo" src="./images/person-photo_1.jpg" alt="Девушка с русыми длинными волосами в кофте цвета морской волны">
+              <h3 class="person__title">
+                Тереза Шимчак
+              </h3>
+              <p class="person__subtitle">
+                Драматург, сценарист, преподаватель
+              </p>
+            </div>
+            <div class="person">
+              <img class="person__photo" src="./images/person-photo_2.jpg" alt="Мужчина читает с листа, сидя на стуле">
+              <h3 class="person__title">
+                Тереза Шимчак
+              </h3>
+              <p class="person__subtitle">
+                Драматург, сценарист, преподаватель
+              </p>
+            </div>
+            <div class="person">
+              <img class="person__photo" src="./images/person-photo_3.jpg" alt="Девушка с русыми длинными волосами в белой блузке">
+              <h3 class="person__title">
+                Тереза Шимчак
+              </h3>
+              <p class="person__subtitle">
+                Драматург, сценарист, преподаватель
+              </p>
+            </div>
+            <div class="person">
+              <img class="person__photo" src="./images/person-photo_1.jpg" alt="Девушка с русыми длинными волосами в кофте цвета морской волны">
+              <h3 class="person__title">
+                Тереза Шимчак
+              </h3>
+              <p class="person__subtitle">
+                Драматург, сценарист, преподаватель
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
+    <div class="mobile-menu-popup"></div>
+    <div class="photo-popup">
+      <div class="photo-popup__container">
+        <button class="photo-popup__flip-button photo-popup__flip-button_direction_left">
+          <svg width="21" height="13" viewBox="0 0 21 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path  class="photo-popup__flip-button-arrow" fill-rule="evenodd" clip-rule="evenodd" d="M7.72322e-08 6.47656L0.724826 7.20139L6.52344 13L7.22631 12.2971L1.90563 6.97646L21 6.97646L21 5.97646L1.94976 5.97646L7.20139 0.724827L6.47656 2.19873e-08L0.702867 5.77369L7.72322e-08 6.47656Z" fill="#242424"/>
+          </svg>
+        </button>
+        <img class="photo-popup__image" src="./images/gallery_photo_1.jpg" alt="Полноэкранное фото">
+        <button class="photo-popup__flip-button photo-popup__flip-button_direction_right">
+          <svg width="21" height="13" viewBox="0 0 21 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path class="photo-popup__flip-button-arrow" fill-rule="evenodd" clip-rule="evenodd" d="M21 6.47656L20.2752 7.20139L14.4766 13L13.7737 12.2971L19.0944 6.97646L-3.63036e-07 6.97646L-3.10999e-07 5.97646L19.0502 5.97646L13.7986 0.724826L14.5234 -2.37804e-07L20.2971 5.77369L21 6.47656Z" fill="#242424"/>
+          </svg>
+        </button> 
+        <button class="photo-popup__close-button">&#10005;</button>
+      </div>
+    </div>
+    <script src="./scripts/index.js"></script>
+    <script src="./scripts/mobile-menu.js"></script>
+    <script src="./scripts/gallery-slider.js"></script>
     <script src="./scripts/video.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
 
@@ -310,4 +462,5 @@
       }
     </script>
   </body>
+>>>>>>> develop
 </html>

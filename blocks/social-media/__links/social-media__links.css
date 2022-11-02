@@ -1,0 +1,9 @@
+.social-media__links {
+  display: flex;
+  flex-wrap: wrap;
+  height: 50px;
+  justify-content: space-between;
+  margin: 0;
+
+  padding: 0;
+}
