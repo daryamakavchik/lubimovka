@@ -1,0 +1,6 @@
+.intro{
+    display: grid;
+    grid-template-rows: auto auto auto;
+    padding-top: 33px;
+    background-color: --main-bg-color;
+}

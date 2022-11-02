@@ -1,167 +1,466 @@
 <!DOCTYPE html>
 <html lang="ru">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="keywords" content="любимовка, театр, драматургия">
-  <title>Любимовка</title>
-  <link rel="stylesheet" href="pages/index.css">
-</head>
-<body class="root">
-  <header class="header header-margin">
-    <img class="logo" src="./images/logo.svg" alt="Лого фестиваля Любимовка: контур сердечка">
-    <nav class="pages-navigation">
-      <ul class="pages-navigation__links">
-        <li class="pages-navigation__links-item">
-          <a href="#" target="_blank" class="pages-navigation__link">Афиша</a>
-        </li>
-        <li class="pages-navigation__links-item">
-          <a href="#" target="_blank" class="pages-navigation__link">Библиотека</a>
-        </li>
-        <li class="pages-navigation__links-item">
-          <a href="#" target="_blank" class="pages-navigation__link">Проекты</a>
-        </li>
-        <li class="pages-navigation__links-item">
-          <a href="#" target="_blank" class="pages-navigation__link">История</a>
-        </li>
-        <li class="pages-navigation__links-item">
-          <a href="#" target="_blank" class="pages-navigation__link">Блог</a>
-        </li>
-        <li class="pages-navigation__links-item">
-          <a href="#" target="_blank" class="pages-navigation__link">Новости</a>
-        </li>
-        <li class="pages-navigation__links-item">
-          <a href="#" target="_blank" class="pages-navigation__link">О фестивале</a>
-        </li>
-        <li class="pages-navigation__links-item">
-          <a href="#" target="_blank" class="pages-navigation__link">Контакты</a>
-        </li>
-      </ul>
-    </nav>
-    <nav class="social-media">
-      <ul class="social-media__links">
-        <li class="social-media__links-item">
-          <a href="https://www.facebook.com/festival.lubimovka/" target="_blank" class="social-media__link">fb</a>
-        </li>
-        <li class="social-media__links-item">
-          <a href="https://www.instagram.com/lubimovka/" target="_blank" class="social-media__link ">inst</a>
-        </li>
-        <li class="social-media__links-item">
-          <a href="https://www.youtube.com/channel/UCDZ1HTzBVBxm_vw6tV7C3lg" target="_blank" class="social-media__link">ytube</a>
-        </li>
-        <li class="social-media__links-item">
-          <a href="https://t.me/lubimovka" target="_blank" class="social-media__link">tlgrm</a>
-        </li>
-        <li class="social-media__links-item">
-          <a href="https://vk.com/festival.lubimovka" target="_blank" class="social-media__link">vk</a>
-        </li>
-      </ul>
-    </nav>
-    <button class="support-button" type="button" aria-label="Кнопка 'Поддержать'">+&nbsp;поддержать</button>
-    <button class="burger-button" type="button">
-      <span class="burger-button__field">
-        <span class="burger-button__item"></span>
-        <span class="burger-button__item"></span>
-        <span class="burger-button__item"></span>
-      </span>
-    </button>
-  </header>
-  <main>
-    <section class="gallery-section">
-      <h2 class="gallery-section__title">Заголовок блока с фотографиями</h2>
-      <ul class="gallery">
-        <li class="gallery__item">
-          <img class="gallery__image" src="./images/gallery_photo_1.jpg" alt="Мужчина и женщина на сцене, на фоне оранжевых декораций">
-        </li>
-        <li class="gallery__item">
-          <img class="gallery__image" src="./images/gallery_photo_2.jpg" alt="Женщина читает с листа, сидя на стуле">
-        </li>
-        <li class="gallery__item">
-          <img class="gallery__image" src="./images/gallery_photo_3.jpg" alt="Мужчина читает с листа, сидя на стуле">
-        </li>
-        <li class="gallery__item">
-          <img class="gallery__image" src="./images/gallery_photo_4.jpg" alt="Несколько человек сидят на стульях и читают с листа">
-        </li>
-        <li class="gallery__item">
-          <img class="gallery__image" src="./images/gallery_photo_5.jpg" alt="Зрители спектакля">
-        </li>
-        <li class="gallery__item">
-          <img class="gallery__image" src="./images/gallery_photo_6.jpg" alt="Девушка с русыми длинными волосами в белой блузке">
-        </li>
-        <li class="gallery__item">
-          <img class="gallery__image" src="./images/gallery_photo_7.jpg" alt="Несколько человек сидят  на стульях и читают с листа, черно белое фото, ракурс сбоку">
-        </li>
-        <li class="gallery__item">
-          <img class="gallery__image" src="./images/gallery_photo_8.jpg" alt="Девушка с русыми длинными волосами в кофте цвета морской волны">
-        </li>
-      </ul>
-    </section>
-    <section class="persons">
-      <h2 class="persons__title">
-        Заголовок блока с персонами
-      </h2>
-      <div class="persons__container">
-        <div class="persons__slidetrack">
-          <div class="person">
-            <img class="person__photo" src="./images/person-photo_1.jpg" alt="Девушка с русыми длинными волосами в кофте цвета морской волны">
-            <h3 class="person__title">
-              Тереза Шимчак
-            </h3>
-            <p class="person__subtitle">
-              Драматург, сценарист, преподаватель
-            </p>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="keywords" content="любимовка, театр, драматургия" />
+    <title>Любимовка</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="pages/index.css" />
+  </head>
+  <body class="root">
+    <header class="header header-margin">
+      <img class="logo" src="./images/logo.svg" alt="Лого фестиваля Любимовка: контур сердечка">
+      <nav class="pages-navigation">
+        <ul class="pages-navigation__links">
+          <li class="pages-navigation__links-item">
+            <a href="#" target="_blank" class="pages-navigation__link">Афиша</a>
+          </li>
+          <li class="pages-navigation__links-item">
+            <a href="#" target="_blank" class="pages-navigation__link">Библиотека</a>
+          </li>
+          <li class="pages-navigation__links-item">
+            <a href="#" target="_blank" class="pages-navigation__link">Проекты</a>
+          </li>
+          <li class="pages-navigation__links-item">
+            <a href="#" target="_blank" class="pages-navigation__link">История</a>
+          </li>
+          <li class="pages-navigation__links-item">
+            <a href="#" target="_blank" class="pages-navigation__link">Блог</a>
+          </li>
+          <li class="pages-navigation__links-item">
+            <a href="#" target="_blank" class="pages-navigation__link">Новости</a>
+          </li>
+          <li class="pages-navigation__links-item">
+            <a href="#" target="_blank" class="pages-navigation__link">О фестивале</a>
+          </li>
+          <li class="pages-navigation__links-item">
+            <a href="#" target="_blank" class="pages-navigation__link">Контакты</a>
+          </li>
+        </ul>
+      </nav>
+      <nav class="social-media">
+        <ul class="social-media__links">
+          <li class="social-media__links-item">
+            <a href="https://www.facebook.com/festival.lubimovka/" target="_blank" class="social-media__link">fb</a>
+          </li>
+          <li class="social-media__links-item">
+            <a href="https://www.instagram.com/lubimovka/" target="_blank" class="social-media__link ">inst</a>
+          </li>
+          <li class="social-media__links-item">
+            <a href="https://www.youtube.com/channel/UCDZ1HTzBVBxm_vw6tV7C3lg" target="_blank" class="social-media__link">ytube</a>
+          </li>
+          <li class="social-media__links-item">
+            <a href="https://t.me/lubimovka" target="_blank" class="social-media__link">tlgrm</a>
+          </li>
+          <li class="social-media__links-item">
+            <a href="https://vk.com/festival.lubimovka" target="_blank" class="social-media__link">vk</a>
+          </li>
+        </ul>
+      </nav>
+      <button class="support-button" type="button" aria-label="Кнопка 'Поддержать'">+&nbsp;поддержать</button>
+      <button class="burger-button" type="button">
+        <span class="burger-button__field">
+          <span class="burger-button__item"></span>
+          <span class="burger-button__item"></span>
+          <span class="burger-button__item"></span>
+        </span>
+      </button>
+    </header>
+    <main class="content">
+      <section class="intro">
+        <div class="intro__button" id="button">
+          <p class="intro__button-text">ПРОЕКТЫ</p>
+          <img
+            class="intro__button-icon"
+            src="./images/leftarrow.svg"
+            alt="Иконка стрелки"
+          />
+        </div>
+        <h1 class="intro__title">Любимовка.<br />Ещё</h1>
+        <div class="intro__content">
+          <p class="intro__content-paragraph">
+            Межсезонные читки и обсуждение пьес из списка отмеченных отборщиками
+            Любимовки.
+            <!-- Можно слушать, обсуждать и даже участвовать. -->
+          </p>
+          <div class="intro__image"></div>
+        </div>
+      </section>
+      <section class="project">
+        <h2 class="project__title">О проекте</h2>
+        <p class="project__paragraph">
+          За первый сезон проекта организаторы провели 17 мероприятий вместе с
+          режиссёрами и актёрами московских театров: Театра.doc, Театрального
+          Центра им. Вс. Мейерхольда, Гоголь-центра, Электротеатра
+          «Станиславский», Ленкома.
+        </p>
+      </section>
+      <section class="videos">
+        <div class="videos__block">
+          <h2 class="videos__title">Заголовок блока с видео</h2>
+          <div class="video__container video__container_size-l">
+            <div class="video">
+              <a
+                class="video__link video__link_size-l"
+                href="https://www.youtube.com/watch?v=0HXW-J_ndM8&list=PL9Pz6qSnYlVFXVBx7rJMKPN9bSPpnUaUo&ab_channel=%D0%9D%D0%B5%D0%B7%D0%B0%D0%B2%D0%B8%D1%81%D0%B8%D0%BC%D1%8B%D0%B9%D1%84%D0%B5%D1%81%D1%82%D0%B8%D0%B2%D0%B0%D0%BB%D1%8C%D0%9B%D1%8E%D0%B1%D0%B8%D0%BC%D0%BE%D0%B2%D0%BA%D0%B0"
+              >
+                <picture>
+                  <source
+                    srcset="
+                      https://i.ytimg.com/vi_webp/0HXW-J_ndM8/maxresdefault.webp
+                    "
+                    type="image/webp"
+                  />
+                  <img
+                    class="video__media"
+                    src="https://i.ytimg.com/vi/0HXW-J_ndM8/maxresdefault.jpg"
+                    alt="1. Пилот, разборы, ответы и лайвы"
+                  />
+                </picture>
+              </a>
+              <button class="video__button" aria-label="Запустить видео">
+                <svg width="68" height="48" viewBox="0 0 68 48">
+                  <path
+                    class="video__button-shape"
+                    d="M66.52,7.74c-0.78-2.93-2.49-5.41-5.42-6.19C55.79,.13,34,0,34,0S12.21,.13,6.9,1.55 C3.97,2.33,2.27,4.81,1.48,7.74C0.06,13.05,0,24,0,24s0.06,10.95,1.48,16.26c0.78,2.93,2.49,5.41,5.42,6.19 C12.21,47.87,34,48,34,48s21.79-0.13,27.1-1.55c2.93-0.78,4.64-3.26,5.42-6.19C67.94,34.95,68,24,68,24S67.94,13.05,66.52,7.74z"
+                  ></path>
+                  <path
+                    class="video__button-icon"
+                    d="M 45,24 27,14 27,34"
+                  ></path>
+                </svg>
+              </button>
+            </div>
           </div>
-          <div class="person">
-            <img class="person__photo" src="./images/person-photo_2.jpg" alt="Мужчина читает с листа, сидя на стуле">
-            <h3 class="person__title">
-              Тереза Шимчак
-            </h3>
-            <p class="person__subtitle">
-              Драматург, сценарист, преподаватель
-            </p>
-          </div>
-          <div class="person">
-            <img class="person__photo" src="./images/person-photo_3.jpg" alt="Девушка с русыми длинными волосами в белой блузке">
-            <h3 class="person__title">
-              Тереза Шимчак
-            </h3>
-            <p class="person__subtitle">
-              Драматург, сценарист, преподаватель
-            </p>
-          </div>
-          <div class="person">
-            <img class="person__photo" src="./images/person-photo_1.jpg" alt="Девушка с русыми длинными волосами в кофте цвета морской волны">
-            <h3 class="person__title">
-              Тереза Шимчак
-            </h3>
-            <p class="person__subtitle">
-              Драматург, сценарист, преподаватель
-            </p>
+          <p class="video__paragraph">
+            Из этого следует два вывода: с одной стороны, искусство не должно
+            быть равно реальности, потому что иначе оно не будет искусством, с
+            другой стороны – оно должно быть все-таки подобно реальности, иначе
+            мы ничего не поймем, не подключимся и не распознаем замыслы автора.
+            Мне нравится такое определение, что один из видов эстетики – это,
+            грубо говоря, "понимание" чего-то. Если нам нечего понимать, то мы
+            не получим ни удовольствия, ни какого-то чувства, ничего. А для
+            того, чтобы что-то понять, нам должно быть представлено что-то, что
+            не равно само себе. То есть нам показывают или говорят что-то, а мы
+            понимаем, что там есть что-то еще. Вот мы смотрим на античную статую
+            и понимаем, что это – статуя, но похожа на человека. Если она будет
+            абсолютно такая же как человек, как восковая фигура, то мы поймем,
+            что это уже не искусство. Искусство для того, чтобы люди догадались,
+            домыслили, дочувствовали что-то.
+          </p>
+        </div>
+        <div class="videos__block">
+          <h2 class="videos__title">Заголовок блока с двумя видео</h2>
+          <div class="swiper mySwiper">
+            <div class="swiper-wrapper videos__grid">
+              <div class="swiper-slide video__container">
+                <div class="video">
+                  <a
+                    class="video__link"
+                    href="https://www.youtube.com/watch?v=0HXW-J_ndM8&list=PL9Pz6qSnYlVFXVBx7rJMKPN9bSPpnUaUo&ab_channel=%D0%9D%D0%B5%D0%B7%D0%B0%D0%B2%D0%B8%D1%81%D0%B8%D0%BC%D1%8B%D0%B9%D1%84%D0%B5%D1%81%D1%82%D0%B8%D0%B2%D0%B0%D0%BB%D1%8C%D0%9B%D1%8E%D0%B1%D0%B8%D0%BC%D0%BE%D0%B2%D0%BA%D0%B0"
+                  >
+                    <picture>
+                      <source
+                        srcset="
+                          https://i.ytimg.com/vi_webp/0HXW-J_ndM8/maxresdefault.webp
+                        "
+                        type="image/webp"
+                      />
+                      <img
+                        class="video__media"
+                        src="https://i.ytimg.com/vi/0HXW-J_ndM8/maxresdefault.jpg"
+                        alt="1. Пилот, разборы, ответы и лайвы"
+                      />
+                    </picture>
+                  </a>
+                  <button class="video__button" aria-label="Запустить видео">
+                    <svg width="68" height="48" viewBox="0 0 68 48">
+                      <path
+                        class="video__button-shape"
+                        d="M66.52,7.74c-0.78-2.93-2.49-5.41-5.42-6.19C55.79,.13,34,0,34,0S12.21,.13,6.9,1.55 C3.97,2.33,2.27,4.81,1.48,7.74C0.06,13.05,0,24,0,24s0.06,10.95,1.48,16.26c0.78,2.93,2.49,5.41,5.42,6.19 C12.21,47.87,34,48,34,48s21.79-0.13,27.1-1.55c2.93-0.78,4.64-3.26,5.42-6.19C67.94,34.95,68,24,68,24S67.94,13.05,66.52,7.74z"
+                      ></path>
+                      <path
+                        class="video__button-icon"
+                        d="M 45,24 27,14 27,34"
+                      ></path>
+                    </svg>
+                  </button>
+                </div>
+              </div>
+              <div class="video__container swiper-slide">
+                <div class="video">
+                  <a
+                    class="video__link"
+                    href="https://www.youtube.com/watch?v=0HXW-J_ndM8&list=PL9Pz6qSnYlVFXVBx7rJMKPN9bSPpnUaUo&ab_channel=%D0%9D%D0%B5%D0%B7%D0%B0%D0%B2%D0%B8%D1%81%D0%B8%D0%BC%D1%8B%D0%B9%D1%84%D0%B5%D1%81%D1%82%D0%B8%D0%B2%D0%B0%D0%BB%D1%8C%D0%9B%D1%8E%D0%B1%D0%B8%D0%BC%D0%BE%D0%B2%D0%BA%D0%B0"
+                  >
+                    <picture>
+                      <source
+                        srcset="
+                          https://i.ytimg.com/vi_webp/0HXW-J_ndM8/maxresdefault.webp
+                        "
+                        type="image/webp"
+                      />
+                      <img
+                        class="video__media"
+                        src="https://i.ytimg.com/vi/0HXW-J_ndM8/maxresdefault.jpg"
+                        alt="1. Пилот, разборы, ответы и лайвы"
+                      />
+                    </picture>
+                  </a>
+                  <button class="video__button" aria-label="Запустить видео">
+                    <svg width="68" height="48" viewBox="0 0 68 48">
+                      <path
+                        class="video__button-shape"
+                        d="M66.52,7.74c-0.78-2.93-2.49-5.41-5.42-6.19C55.79,.13,34,0,34,0S12.21,.13,6.9,1.55 C3.97,2.33,2.27,4.81,1.48,7.74C0.06,13.05,0,24,0,24s0.06,10.95,1.48,16.26c0.78,2.93,2.49,5.41,5.42,6.19 C12.21,47.87,34,48,34,48s21.79-0.13,27.1-1.55c2.93-0.78,4.64-3.26,5.42-6.19C67.94,34.95,68,24,68,24S67.94,13.05,66.52,7.74z"
+                      ></path>
+                      <path
+                        class="video__button-icon"
+                        d="M 45,24 27,14 27,34"
+                      ></path>
+                    </svg>
+                  </button>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
+        <div class="videos__block">
+          <h2 class="videos__title">Заголовок блока с тремя видео</h2>
+          <div class="swiper mySwiper">
+            <div class="swiper-wrapper videos__grid">
+              <div class="swiper-slide video__container">
+                <div class="video">
+                  <a
+                    class="video__link"
+                    href="https://www.youtube.com/watch?v=0HXW-J_ndM8&list=PL9Pz6qSnYlVFXVBx7rJMKPN9bSPpnUaUo&ab_channel=%D0%9D%D0%B5%D0%B7%D0%B0%D0%B2%D0%B8%D1%81%D0%B8%D0%BC%D1%8B%D0%B9%D1%84%D0%B5%D1%81%D1%82%D0%B8%D0%B2%D0%B0%D0%BB%D1%8C%D0%9B%D1%8E%D0%B1%D0%B8%D0%BC%D0%BE%D0%B2%D0%BA%D0%B0"
+                  >
+                    <picture>
+                      <source
+                        srcset="
+                          https://i.ytimg.com/vi_webp/0HXW-J_ndM8/maxresdefault.webp
+                        "
+                        type="image/webp"
+                      />
+                      <img
+                        class="video__media"
+                        src="https://i.ytimg.com/vi/0HXW-J_ndM8/maxresdefault.jpg"
+                        alt="1. Пилот, разборы, ответы и лайвы"
+                      />
+                    </picture>
+                  </a>
+                  <button class="video__button" aria-label="Запустить видео">
+                    <svg width="68" height="48" viewBox="0 0 68 48">
+                      <path
+                        class="video__button-shape"
+                        d="M66.52,7.74c-0.78-2.93-2.49-5.41-5.42-6.19C55.79,.13,34,0,34,0S12.21,.13,6.9,1.55 C3.97,2.33,2.27,4.81,1.48,7.74C0.06,13.05,0,24,0,24s0.06,10.95,1.48,16.26c0.78,2.93,2.49,5.41,5.42,6.19 C12.21,47.87,34,48,34,48s21.79-0.13,27.1-1.55c2.93-0.78,4.64-3.26,5.42-6.19C67.94,34.95,68,24,68,24S67.94,13.05,66.52,7.74z"
+                      ></path>
+                      <path
+                        class="video__button-icon"
+                        d="M 45,24 27,14 27,34"
+                      ></path>
+                    </svg>
+                  </button>
+                </div>
+              </div>
+              <div class="swiper-slide video__container">
+                <div class="video">
+                  <a
+                    class="video__link"
+                    href="https://www.youtube.com/watch?v=0HXW-J_ndM8&list=PL9Pz6qSnYlVFXVBx7rJMKPN9bSPpnUaUo&ab_channel=%D0%9D%D0%B5%D0%B7%D0%B0%D0%B2%D0%B8%D1%81%D0%B8%D0%BC%D1%8B%D0%B9%D1%84%D0%B5%D1%81%D1%82%D0%B8%D0%B2%D0%B0%D0%BB%D1%8C%D0%9B%D1%8E%D0%B1%D0%B8%D0%BC%D0%BE%D0%B2%D0%BA%D0%B0"
+                  >
+                    <picture>
+                      <source
+                        srcset="
+                          https://i.ytimg.com/vi_webp/0HXW-J_ndM8/maxresdefault.webp
+                        "
+                        type="image/webp"
+                      />
+                      <img
+                        class="video__media"
+                        src="https://i.ytimg.com/vi/0HXW-J_ndM8/maxresdefault.jpg"
+                        alt="1. Пилот, разборы, ответы и лайвы"
+                      />
+                    </picture>
+                  </a>
+                  <button class="video__button" aria-label="Запустить видео">
+                    <svg width="68" height="48" viewBox="0 0 68 48">
+                      <path
+                        class="video__button-shape"
+                        d="M66.52,7.74c-0.78-2.93-2.49-5.41-5.42-6.19C55.79,.13,34,0,34,0S12.21,.13,6.9,1.55 C3.97,2.33,2.27,4.81,1.48,7.74C0.06,13.05,0,24,0,24s0.06,10.95,1.48,16.26c0.78,2.93,2.49,5.41,5.42,6.19 C12.21,47.87,34,48,34,48s21.79-0.13,27.1-1.55c2.93-0.78,4.64-3.26,5.42-6.19C67.94,34.95,68,24,68,24S67.94,13.05,66.52,7.74z"
+                      ></path>
+                      <path
+                        class="video__button-icon"
+                        d="M 45,24 27,14 27,34"
+                      ></path>
+                    </svg>
+                  </button>
+                </div>
+              </div>
+              <div class="swiper-slide video__container">
+                <div class="video">
+                  <a
+                    class="video__link"
+                    href="https://www.youtube.com/watch?v=0HXW-J_ndM8&list=PL9Pz6qSnYlVFXVBx7rJMKPN9bSPpnUaUo&ab_channel=%D0%9D%D0%B5%D0%B7%D0%B0%D0%B2%D0%B8%D1%81%D0%B8%D0%BC%D1%8B%D0%B9%D1%84%D0%B5%D1%81%D1%82%D0%B8%D0%B2%D0%B0%D0%BB%D1%8C%D0%9B%D1%8E%D0%B1%D0%B8%D0%BC%D0%BE%D0%B2%D0%BA%D0%B0"
+                  >
+                    <picture>
+                      <source
+                        srcset="
+                          https://i.ytimg.com/vi_webp/0HXW-J_ndM8/maxresdefault.webp
+                        "
+                        type="image/webp"
+                      />
+                      <img
+                        class="video__media"
+                        src="https://i.ytimg.com/vi/0HXW-J_ndM8/maxresdefault.jpg"
+                        alt="1. Пилот, разборы, ответы и лайвы"
+                      />
+                    </picture>
+                  </a>
+                  <button class="video__button" aria-label="Запустить видео">
+                    <svg width="68" height="48" viewBox="0 0 68 48">
+                      <path
+                        class="video__button-shape"
+                        d="M66.52,7.74c-0.78-2.93-2.49-5.41-5.42-6.19C55.79,.13,34,0,34,0S12.21,.13,6.9,1.55 C3.97,2.33,2.27,4.81,1.48,7.74C0.06,13.05,0,24,0,24s0.06,10.95,1.48,16.26c0.78,2.93,2.49,5.41,5.42,6.19 C12.21,47.87,34,48,34,48s21.79-0.13,27.1-1.55c2.93-0.78,4.64-3.26,5.42-6.19C67.94,34.95,68,24,68,24S67.94,13.05,66.52,7.74z"
+                      ></path>
+                      <path
+                        class="video__button-icon"
+                        d="M 45,24 27,14 27,34"
+                      ></path>
+                    </svg>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="gallery-section">
+        <h2 class="gallery-section__title">Заголовок блока с фотографиями</h2>
+        <ul class="gallery">
+          <li class="gallery__item">
+            <img class="gallery__image" src="./images/gallery_photo_1.jpg" alt="Мужчина и женщина на сцене, на фоне оранжевых декораций">
+          </li>
+          <li class="gallery__item">
+            <img class="gallery__image" src="./images/gallery_photo_2.jpg" alt="Женщина читает с листа, сидя на стуле">
+          </li>
+          <li class="gallery__item">
+            <img class="gallery__image" src="./images/gallery_photo_3.jpg" alt="Мужчина читает с листа, сидя на стуле">
+          </li>
+          <li class="gallery__item">
+            <img class="gallery__image" src="./images/gallery_photo_4.jpg" alt="Несколько человек сидят на стульях и читают с листа">
+          </li>
+          <li class="gallery__item">
+            <img class="gallery__image" src="./images/gallery_photo_5.jpg" alt="Зрители спектакля">
+          </li>
+          <li class="gallery__item">
+            <img class="gallery__image" src="./images/gallery_photo_6.jpg" alt="Девушка с русыми длинными волосами в белой блузке">
+          </li>
+          <li class="gallery__item">
+            <img class="gallery__image" src="./images/gallery_photo_7.jpg" alt="Несколько человек сидят  на стульях и читают с листа, черно белое фото, ракурс сбоку">
+          </li>
+          <li class="gallery__item">
+            <img class="gallery__image" src="./images/gallery_photo_8.jpg" alt="Девушка с русыми длинными волосами в кофте цвета морской волны">
+          </li>
+        </ul>
+      </section>
+      <section class="persons">
+        <h2 class="persons__title">
+          Заголовок блока с персонами
+        </h2>
+        <div class="persons__container">
+          <div class="persons__slidetrack">
+            <div class="person">
+              <img class="person__photo" src="./images/person-photo_1.jpg" alt="Девушка с русыми длинными волосами в кофте цвета морской волны">
+              <h3 class="person__title">
+                Тереза Шимчак
+              </h3>
+              <p class="person__subtitle">
+                Драматург, сценарист, преподаватель
+              </p>
+            </div>
+            <div class="person">
+              <img class="person__photo" src="./images/person-photo_2.jpg" alt="Мужчина читает с листа, сидя на стуле">
+              <h3 class="person__title">
+                Тереза Шимчак
+              </h3>
+              <p class="person__subtitle">
+                Драматург, сценарист, преподаватель
+              </p>
+            </div>
+            <div class="person">
+              <img class="person__photo" src="./images/person-photo_3.jpg" alt="Девушка с русыми длинными волосами в белой блузке">
+              <h3 class="person__title">
+                Тереза Шимчак
+              </h3>
+              <p class="person__subtitle">
+                Драматург, сценарист, преподаватель
+              </p>
+            </div>
+            <div class="person">
+              <img class="person__photo" src="./images/person-photo_1.jpg" alt="Девушка с русыми длинными волосами в кофте цвета морской волны">
+              <h3 class="person__title">
+                Тереза Шимчак
+              </h3>
+              <p class="person__subtitle">
+                Драматург, сценарист, преподаватель
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <div class="mobile-menu-popup"></div>
+    <div class="photo-popup">
+      <div class="photo-popup__container">
+        <button class="photo-popup__flip-button photo-popup__flip-button_direction_left">
+          <svg width="21" height="13" viewBox="0 0 21 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path  class="photo-popup__flip-button-arrow" fill-rule="evenodd" clip-rule="evenodd" d="M7.72322e-08 6.47656L0.724826 7.20139L6.52344 13L7.22631 12.2971L1.90563 6.97646L21 6.97646L21 5.97646L1.94976 5.97646L7.20139 0.724827L6.47656 2.19873e-08L0.702867 5.77369L7.72322e-08 6.47656Z" fill="#242424"/>
+          </svg>
+        </button>
+        <img class="photo-popup__image" src="./images/gallery_photo_1.jpg" alt="Полноэкранное фото">
+        <button class="photo-popup__flip-button photo-popup__flip-button_direction_right">
+          <svg width="21" height="13" viewBox="0 0 21 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path class="photo-popup__flip-button-arrow" fill-rule="evenodd" clip-rule="evenodd" d="M21 6.47656L20.2752 7.20139L14.4766 13L13.7737 12.2971L19.0944 6.97646L-3.63036e-07 6.97646L-3.10999e-07 5.97646L19.0502 5.97646L13.7986 0.724826L14.5234 -2.37804e-07L20.2971 5.77369L21 6.47656Z" fill="#242424"/>
+          </svg>
+        </button> 
+        <button class="photo-popup__close-button">&#10005;</button>
       </div>
-    </section>
-  </main>
-  <div class="mobile-menu-popup"></div>
-  <div class="photo-popup">
-    <div class="photo-popup__container">
-      <button class="photo-popup__flip-button photo-popup__flip-button_direction_left">
-        <svg width="21" height="13" viewBox="0 0 21 13" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <path  class="photo-popup__flip-button-arrow" fill-rule="evenodd" clip-rule="evenodd" d="M7.72322e-08 6.47656L0.724826 7.20139L6.52344 13L7.22631 12.2971L1.90563 6.97646L21 6.97646L21 5.97646L1.94976 5.97646L7.20139 0.724827L6.47656 2.19873e-08L0.702867 5.77369L7.72322e-08 6.47656Z" fill="#242424"/>
-        </svg>
-      </button>
-      <img class="photo-popup__image" src="./images/gallery_photo_1.jpg" alt="Полноэкранное фото">
-      <button class="photo-popup__flip-button photo-popup__flip-button_direction_right">
-        <svg width="21" height="13" viewBox="0 0 21 13" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <path class="photo-popup__flip-button-arrow" fill-rule="evenodd" clip-rule="evenodd" d="M21 6.47656L20.2752 7.20139L14.4766 13L13.7737 12.2971L19.0944 6.97646L-3.63036e-07 6.97646L-3.10999e-07 5.97646L19.0502 5.97646L13.7986 0.724826L14.5234 -2.37804e-07L20.2971 5.77369L21 6.47656Z" fill="#242424"/>
-        </svg>
-      </button> 
-      <button class="photo-popup__close-button">&#10005;</button>
     </div>
-  </div>
-  <script src="./scripts/index.js"></script>
-  <script src="./scripts/mobile-menu.js"></script>
-  <script src="./scripts/gallery-slider.js"></script>
-</body>
+    <script src="./scripts/index.js"></script>
+    <script src="./scripts/mobile-menu.js"></script>
+    <script src="./scripts/gallery-slider.js"></script>
+    <script src="./scripts/video.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+      var init = false;
+      let mobile = window.matchMedia(
+        "(max-width: 1200px)"
+      );
+      if (mobile.matches) {
+        if (!init) {
+          init = true;
+          var swiper = new Swiper(".mySwiper", {
+            slidesPerView: 2,
+            spaceBetween: 0,
+            initialSlide: 1,
+            pagination: {
+              el: ".swiper-pagination",
+              clickable: true,
+            },
+          });
+        }
+      } else {
+        swiper.destroy();
+        init = false;
+      }
+    </script>
+  </body>
+>>>>>>> develop
 </html>

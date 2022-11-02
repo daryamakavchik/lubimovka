@@ -1,0 +1,7 @@
+.project{
+    display: grid;
+    grid-template-rows: auto auto;
+    grid-gap: 17px;
+    /* background-color: --accent-bg-color; */
+    background-color: #B7C09D;
+}

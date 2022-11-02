@@ -1,0 +1,24 @@
+.intro__button{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0 0 0 30px;
+    padding: 0 0 0 10px;
+    height: 31px;
+    max-width: 121px;
+    box-sizing: border-box;
+    font-family: 'Formular';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 14px;
+    color: --text-dark;
+    border-right: 1px solid #242424;
+    border-bottom: 1px solid #242424;;
+}
+
+@media screen and (max-width: 1200px) {
+    .intro__button{
+        margin-left: 86px;
+    }
+}
