@@ -18,7 +18,7 @@ https://www.notion.so/pr-page-e5b5de2020da43f6a708b5e01f650bd8
 
 Виталий Головкин (github: SmokyDogg)
 
-СТЭК: 
+СТЕК: 
 -----
 
 * HTML 
