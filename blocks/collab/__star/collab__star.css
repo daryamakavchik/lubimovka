@@ -1,0 +1,8 @@
+.collab__star {
+  background-image: url(../../../images/asterisk.svg);
+  width: 25px;
+  height: 25px;
+  position: absolute;
+  top: -22px;
+  left: -25px;
+}
