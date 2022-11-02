@@ -1,0 +1,17 @@
+.intro__image{
+    width: 720px;
+    height: 445px;
+    position: relative;
+    float: right;
+    background-image: url("../../../images/introimage.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+@media screen and (max-width: 1200px) {
+    .intro__image{
+        top: 36px;
+        width: 100%;
+    }
+}

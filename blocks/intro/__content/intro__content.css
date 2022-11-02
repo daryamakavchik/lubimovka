@@ -1,0 +1,15 @@
+.intro__content {
+  display: flex;
+  flex-direction: row;
+  width: 100vw;
+  justify-content: space-between;
+  padding-top: 65px;
+  padding-left: 180px;
+}
+
+@media screen and (max-width: 1200px) {
+  .intro__content {
+    flex-direction: column;
+    padding: 0;
+  }
+}
