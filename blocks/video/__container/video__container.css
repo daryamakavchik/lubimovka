@@ -1,0 +1,12 @@
+.video__container{
+    width: 420px;
+    max-height: 236px;
+    overflow: hidden;
+}
+
+@media screen and (max-width: 1200px){
+    .video__container{
+        width: 299px;
+        max-height: 168px;
+    }
+}
