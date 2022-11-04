@@ -1,0 +1,12 @@
+.play__title {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 24px 31px 0 24px;
+  min-height: 187px;
+  background-color: #B7C09D;
+
+  font-family: 'Neue Machina', Arial, sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.2;
+}

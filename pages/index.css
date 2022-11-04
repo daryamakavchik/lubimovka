@@ -49,6 +49,19 @@
 @import url(../blocks/photo-popup/__image/photo-popup__image.css);
 @import url(../blocks/photo-popup/__close-button/photo-popup__close-button.css);
 
+@import url(../blocks/plays/plays.css);
+@import url(../blocks/plays/__title/plays__title.css);
+@import url(../blocks/plays/__list/plays__list.css);
+
+@import url(../blocks/play/play.css);
+@import url(../blocks/play/__title/play__title.css);
+@import url(../blocks/play/__button/play__button.css);
+@import url(../blocks/play/__button-arrow/play__button-arrow.css);
+@import url(../blocks/play/__button-arrow/_rotate/play__button-arrow_rotate.css);
+@import url(../blocks/play/__subtitle/play__subtitle.css);
+@import url(../blocks/play/__city/play__city.css);
+@import url(../blocks/play/__year/play__year.css);
+
 @import url(../blocks/persons/persons.css);
 @import url(../blocks/persons/__title/persons__title.css);
 @import url(../blocks/persons/__container/persons__container.css);

@@ -1,0 +1,9 @@
+.plays__list {
+  display: grid;
+  margin: 0;
+  grid-template-columns: repeat(5, 1fr);
+  row-gap: 30px;
+  column-gap: 30px;
+
+  list-style: none;
+}
