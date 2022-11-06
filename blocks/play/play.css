@@ -3,3 +3,15 @@
   flex-direction: column;
   min-width: 240px;
 }
+
+.play:hover .play__button {
+  border-top: 1px solid #242424;
+}
+
+.play:hover .play__button-text {
+  visibility: visible;
+}
+
+.play:hover .play__button-arrow {
+  visibility: visible;
+}
