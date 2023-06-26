@@ -1,27 +1,43 @@
-# Любимовка # 
+# "Lubimovka" # 
 
-Фестиваль молодой драматургии Любимовка -  это независимый некомрческий коллективный проект российских драматургов. 
+#### [GitHub Pages](https://daryamakavchik.github.io/lubimovka/)
+#### [Figma](https://www.figma.com/file/DEeW2FE3pJiQ407zqx4C9B/Lubimovka?type=design&node-id=0-1&mode=design&t=VUfoTzCNnLYc7mOG-0) 
+#### [Brief](https://www.notion.so/pr-page-e5b5de2020da43f6a708b5e01f650bd8)
 
-Каждый год Любимовка проводит приём и отбор новых пьес начинающих и признанных русскоязычных авторов, чтобы дать возможность начинающим авторам найти свой голос и быть услышанным. 
+## Description
+This landing page is a portfolio project created as an assignment for [Yandex.Practicum](https://practicum.yandex.com/web/ "Web Development Program"). 
+"Lubimovka" is a nonprofit annual festival for Russian speaking playwrights from Russia or any other country of the world. Every year Lyubimovka holds a selection of new plays written by both beginners and recognized Russian-speaking authors. Its goal is to enable novice authors to find their voice and be heard.
 
-Ссылка на бриф:
----------------
-https://www.notion.so/pr-page-e5b5de2020da43f6a708b5e01f650bd8
+The project was designed to practice teamwork, hone responsive layout skills and add interactivity to interface elements.
 
-Техническая команда проекта: 
+## Tech Stack:
+![HTML](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
+![CSS](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+
+## Implementation
+
+- Flexbox
+- Grid Layout
+- Media-queries
+- BEM Nested file structure
+
+## Team: 
 ----------------------------
-Дарья Макавчик (github: daryamakavchik). Teamlead. 
+Darya Makavchik (github: daryamakavchik). Teamlead. 
 
-Глеб Ляшенков (github: glepka)
+Gleb Lyashenkov (github: glepka)
 
-Елена Любимова (github: elenaLiubimova)
+Elena Liubimova (github: elenaLiubimova)
 
-Виталий Головкин (github: SmokyDogg)
+Vitaliy Golovkin (github: SmokyDogg)
 
-СТЕК: 
------
+## Installation
 
-* HTML 
-* CSS
-* JavaScript
+```bash
+# Clone the repository
+git clone https://daryamakavchik.github.io/lubimovka/
+# Enter the project directory
+cd lubimovka
+```
 
