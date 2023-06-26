@@ -23,7 +23,7 @@ The project was designed to practice teamwork, hone responsive layout skills and
 - BEM Nested file structure
 
 ## Team: 
-----------------------------
+
 Darya Makavchik (github: daryamakavchik). Teamlead. 
 
 Gleb Lyashenkov (github: glepka)
