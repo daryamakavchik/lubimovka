@@ -1,6 +1,5 @@
 # "Lubimovka" # 
 
-#### [GitHub Pages](https://daryamakavchik.github.io/lubimovka/)
 #### [Figma](https://www.figma.com/file/DEeW2FE3pJiQ407zqx4C9B/Lubimovka?type=design&node-id=0-1&mode=design&t=VUfoTzCNnLYc7mOG-0) 
 #### [Brief](https://www.notion.so/pr-page-e5b5de2020da43f6a708b5e01f650bd8)
 
@@ -41,3 +40,5 @@ git clone https://daryamakavchik.github.io/lubimovka/
 cd lubimovka
 ```
 
+## TO DO
+- [ ] deploy the project to github pages
