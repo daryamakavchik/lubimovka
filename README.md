@@ -9,10 +9,9 @@ This landing page is a portfolio project created as an assignment for [Yandex.Pr
 
 The project was designed to practice teamwork, hone responsive layout skills and add interactivity to interface elements.
 
-<img width="546" alt="page1" src="https://github.com/daryamakavchik/lubimovka/assets/90967822/648e99e6-1b41-454e-b76e-217874e3aed0">
-<img width="546" alt="page2" src="https://github.com/daryamakavchik/lubimovka/assets/90967822/ac2ffd80-1493-48d6-b0d2-fca2eea0d488">
-<img width="546" alt="page3" src="https://github.com/daryamakavchik/lubimovka/assets/90967822/de8b574f-ffb9-43d3-9f6b-3623cf8929b3">
-
+<img width="546" alt="page1" src="https://github.com/daryamakavchik/lubimovka/assets/90967822/c5c73075-6d89-4040-aea8-eefdd7b0a520">
+<img width="546" alt="page2" src="https://github.com/daryamakavchik/lubimovka/assets/90967822/52d63853-8c64-41af-b573-984df75c7ae1">
+<img width="546" alt="page3" src="https://github.com/daryamakavchik/lubimovka/assets/90967822/b065ac24-5ab8-4b2b-89df-5a0e17637da0">
 
 ## Tech Stack:
 ![HTML](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
