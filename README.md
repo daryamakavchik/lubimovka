@@ -1,5 +1,6 @@
 # "Lubimovka" # 
 
+#### [GitHub Pages](https://daryamakavchik.github.io/lubimovka)
 #### [Figma](https://www.figma.com/file/sPmrkcsXbuuHC24zIRktfJ/lubimovka-(pr.page)?type=design&node-id=0-1&mode=design)
 #### [Brief](https://www.notion.so/pr-page-e5b5de2020da43f6a708b5e01f650bd8)
 
