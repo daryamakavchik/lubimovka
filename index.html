@@ -1,13 +1,466 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="keywords" content="любимовка, театр, драматургия">
-  <title>Любимовка</title>
-  <link rel="stylesheet" href="pages/index.css" />
-</head>
-  <body>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="keywords" content="lubimovka, theatre, playwriting" />
+    <title>Любимовка</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="/lubimovka/pages/index.css" />
+  </head>
+  <body class="root">
+    <header class="header header-margin">
+      <img class="logo" src="./images/logo.svg" alt="Лого фестиваля Любимовка: контур сердечка">
+      <nav class="pages-navigation">
+        <ul class="pages-navigation__links">
+          <li class="pages-navigation__links-item">
+            <a href="#" target="_blank" class="pages-navigation__link">Events</a>
+          </li>
+          <li class="pages-navigation__links-item">
+            <a href="#" target="_blank" class="pages-navigation__link">Library</a>
+          </li>
+          <li class="pages-navigation__links-item">
+            <a href="#" target="_blank" class="pages-navigation__link">Projects</a>
+          </li>
+          <li class="pages-navigation__links-item">
+            <a href="#" target="_blank" class="pages-navigation__link">Our story</a>
+          </li>
+          <li class="pages-navigation__links-item">
+            <a href="#" target="_blank" class="pages-navigation__link">Blog</a>
+          </li>
+          <li class="pages-navigation__links-item">
+            <a href="#" target="_blank" class="pages-navigation__link">News</a>
+          </li>
+          <li class="pages-navigation__links-item">
+            <a href="#" target="_blank" class="pages-navigation__link">About the festival</a>
+          </li>
+          <li class="pages-navigation__links-item">
+            <a href="#" target="_blank" class="pages-navigation__link">Contact</a>
+          </li>
+        </ul>
+      </nav>
+      <nav class="social-media">
+        <ul class="social-media__links">
+          <li class="social-media__links-item">
+            <a href="https://www.facebook.com/festival.lubimovka/" target="_blank" class="social-media__link">fb</a>
+          </li>
+          <li class="social-media__links-item">
+            <a href="https://www.instagram.com/lubimovka/" target="_blank" class="social-media__link ">inst</a>
+          </li>
+          <li class="social-media__links-item">
+            <a href="https://www.youtube.com/channel/UCDZ1HTzBVBxm_vw6tV7C3lg" target="_blank" class="social-media__link">ytube</a>
+          </li>
+          <li class="social-media__links-item">
+            <a href="https://t.me/lubimovka" target="_blank" class="social-media__link">tlgrm</a>
+          </li>
+          <li class="social-media__links-item">
+            <a href="https://vk.com/festival.lubimovka" target="_blank" class="social-media__link">vk</a>
+          </li>
+        </ul>
+      </nav>
+      <button class="support-button" type="button" aria-label="Support button">+&nbsp;support</button>
+      <button class="burger-button" type="button">
+        <span class="burger-button__field">
+          <span class="burger-button__item"></span>
+          <span class="burger-button__item"></span>
+          <span class="burger-button__item"></span>
+        </span>
+      </button>
+    </header>
+    <main class="content">
+      <section class="intro">
+        <div class="intro__button" id="button">
+          <p class="intro__button-text">PROJECTS</p>
+          <img
+            class="intro__button-icon"
+            src="./images/leftarrow.svg"
+            alt="Arrow icon"
+          />
+        </div>
+        <h1 class="intro__title">Lubimovka.<br />More</h1>
+        <div class="intro__content">
+          <p class="intro__content-paragraph">
+            Off-season readings and discussions of plays from the list created by our selectors.
+          </p>
+          <div class="intro__image"></div>
+        </div>
+      </section>
+      <section class="project">
+        <h2 class="project__title">About</h2>
+        <p class="project__paragraph">
+          During the first season of the project, the organizers held 17 events together with
+directors and actors of Moscow theaters: Theater.doc, Theatrical
+Vs. Meyerhold Center, Gogol Center, Electrotheater 'Stanislavsky', Lenkom.
+        </p>
+      </section>
+      <section class="videos">
+        <div class="videos__block">
+          <h2 class="videos__title">Video block title</h2>
+          <div class="video__container video__container_size-l">
+            <div class="video">
+              <a
+                class="video__link video__link_size-l"
+                href="https://www.youtube.com/watch?v=0HXW-J_ndM8&list=PL9Pz6qSnYlVFXVBx7rJMKPN9bSPpnUaUo&ab_channel=%D0%9D%D0%B5%D0%B7%D0%B0%D0%B2%D0%B8%D1%81%D0%B8%D0%BC%D1%8B%D0%B9%D1%84%D0%B5%D1%81%D1%82%D0%B8%D0%B2%D0%B0%D0%BB%D1%8C%D0%9B%D1%8E%D0%B1%D0%B8%D0%BC%D0%BE%D0%B2%D0%BA%D0%B0"
+              >
+                <picture>
+                  <source
+                    srcset="
+                      https://i.ytimg.com/vi_webp/0HXW-J_ndM8/maxresdefault.webp
+                    "
+                    type="image/webp"
+                  />
+                  <img
+                    class="video__media"
+                    src="https://i.ytimg.com/vi/0HXW-J_ndM8/maxresdefault.jpg"
+                    alt="1. First release, answers, reviews and broadcasts"
+                  />
+                </picture>
+              </a>
+              <button class="video__button" aria-label="Play the video">
+                <svg width="68" height="48" viewBox="0 0 68 48">
+                  <path
+                    class="video__button-shape"
+                    d="M66.52,7.74c-0.78-2.93-2.49-5.41-5.42-6.19C55.79,.13,34,0,34,0S12.21,.13,6.9,1.55 C3.97,2.33,2.27,4.81,1.48,7.74C0.06,13.05,0,24,0,24s0.06,10.95,1.48,16.26c0.78,2.93,2.49,5.41,5.42,6.19 C12.21,47.87,34,48,34,48s21.79-0.13,27.1-1.55c2.93-0.78,4.64-3.26,5.42-6.19C67.94,34.95,68,24,68,24S67.94,13.05,66.52,7.74z"
+                  ></path>
+                  <path
+                    class="video__button-icon"
+                    d="M 45,24 27,14 27,34"
+                  ></path>
+                </svg>
+              </button>
+            </div>
+          </div>
+          <p class="video__paragraph"> That leads us to two conclusions: on the one hand, art should not
+            to be too close to reality, because otherwise it will not be art. On the
+            other hand, it must still be somewhat like reality, otherwise
+            we will not understand anything, we will not connect and we will not recognize the author's intentions.
+            I like to think of it as a type of aesthetics - "understanding" something, roughly speaking. If we have nothing to understand, then we
+            we will get neither pleasure, nor any feeling, nothing. And for
+            in order to understand something, we must be presented with something that is not equal to itself. 
+            That is, we face something and we understand that there is something else there. 
+            Here we are looking at an antique statue
+            and we understand that it is a statue, but it looks like a person. If it was absolutely the same as a person, like a wax figure, then we would no longer recognize it as art. Art is for people to guess,
+            speculate, feel something.
+          </p>
+        </div>
+        <div class="videos__block">
+          <h2 class="videos__title">Two video block title</h2>
+          <div class="swiper mySwiper">
+            <div class="swiper-wrapper videos__grid">
+              <div class="swiper-slide video__container">
+                <div class="video">
+                  <a
+                    class="video__link"
+                    href="https://www.youtube.com/watch?v=0HXW-J_ndM8&list=PL9Pz6qSnYlVFXVBx7rJMKPN9bSPpnUaUo&ab_channel=%D0%9D%D0%B5%D0%B7%D0%B0%D0%B2%D0%B8%D1%81%D0%B8%D0%BC%D1%8B%D0%B9%D1%84%D0%B5%D1%81%D1%82%D0%B8%D0%B2%D0%B0%D0%BB%D1%8C%D0%9B%D1%8E%D0%B1%D0%B8%D0%BC%D0%BE%D0%B2%D0%BA%D0%B0"
+                  >
+                    <picture>
+                      <source
+                        srcset="
+                          https://i.ytimg.com/vi_webp/0HXW-J_ndM8/maxresdefault.webp
+                        "
+                        type="image/webp"
+                      />
+                      <img
+                        class="video__media"
+                        src="https://i.ytimg.com/vi/0HXW-J_ndM8/maxresdefault.jpg"
+                        alt="1. First release, answers, reviews and broadcasts"
+                      />
+                    </picture>
+                  </a>
+                  <button class="video__button" aria-label="Play the video">
+                    <svg width="68" height="48" viewBox="0 0 68 48">
+                      <path
+                        class="video__button-shape"
+                        d="M66.52,7.74c-0.78-2.93-2.49-5.41-5.42-6.19C55.79,.13,34,0,34,0S12.21,.13,6.9,1.55 C3.97,2.33,2.27,4.81,1.48,7.74C0.06,13.05,0,24,0,24s0.06,10.95,1.48,16.26c0.78,2.93,2.49,5.41,5.42,6.19 C12.21,47.87,34,48,34,48s21.79-0.13,27.1-1.55c2.93-0.78,4.64-3.26,5.42-6.19C67.94,34.95,68,24,68,24S67.94,13.05,66.52,7.74z"
+                      ></path>
+                      <path
+                        class="video__button-icon"
+                        d="M 45,24 27,14 27,34"
+                      ></path>
+                    </svg>
+                  </button>
+                </div>
+              </div>
+              <div class="video__container swiper-slide">
+                <div class="video">
+                  <a
+                    class="video__link"
+                    href="https://www.youtube.com/watch?v=0HXW-J_ndM8&list=PL9Pz6qSnYlVFXVBx7rJMKPN9bSPpnUaUo&ab_channel=%D0%9D%D0%B5%D0%B7%D0%B0%D0%B2%D0%B8%D1%81%D0%B8%D0%BC%D1%8B%D0%B9%D1%84%D0%B5%D1%81%D1%82%D0%B8%D0%B2%D0%B0%D0%BB%D1%8C%D0%9B%D1%8E%D0%B1%D0%B8%D0%BC%D0%BE%D0%B2%D0%BA%D0%B0"
+                  >
+                    <picture>
+                      <source
+                        srcset="
+                          https://i.ytimg.com/vi_webp/0HXW-J_ndM8/maxresdefault.webp
+                        "
+                        type="image/webp"
+                      />
+                      <img
+                        class="video__media"
+                        src="https://i.ytimg.com/vi/0HXW-J_ndM8/maxresdefault.jpg"
+                        alt="1. First release, answers, reviews and broadcasts"
+                      />
+                    </picture>
+                  </a>
+                  <button class="video__button" aria-label="Play the video">
+                    <svg width="68" height="48" viewBox="0 0 68 48">
+                      <path
+                        class="video__button-shape"
+                        d="M66.52,7.74c-0.78-2.93-2.49-5.41-5.42-6.19C55.79,.13,34,0,34,0S12.21,.13,6.9,1.55 C3.97,2.33,2.27,4.81,1.48,7.74C0.06,13.05,0,24,0,24s0.06,10.95,1.48,16.26c0.78,2.93,2.49,5.41,5.42,6.19 C12.21,47.87,34,48,34,48s21.79-0.13,27.1-1.55c2.93-0.78,4.64-3.26,5.42-6.19C67.94,34.95,68,24,68,24S67.94,13.05,66.52,7.74z"
+                      ></path>
+                      <path
+                        class="video__button-icon"
+                        d="M 45,24 27,14 27,34"
+                      ></path>
+                    </svg>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="videos__block">
+          <h2 class="videos__title">Three video block title</h2>
+          <div class="swiper mySwiper">
+            <div class="swiper-wrapper videos__grid">
+              <div class="swiper-slide video__container">
+                <div class="video">
+                  <a
+                    class="video__link"
+                    href="https://www.youtube.com/watch?v=0HXW-J_ndM8&list=PL9Pz6qSnYlVFXVBx7rJMKPN9bSPpnUaUo&ab_channel=%D0%9D%D0%B5%D0%B7%D0%B0%D0%B2%D0%B8%D1%81%D0%B8%D0%BC%D1%8B%D0%B9%D1%84%D0%B5%D1%81%D1%82%D0%B8%D0%B2%D0%B0%D0%BB%D1%8C%D0%9B%D1%8E%D0%B1%D0%B8%D0%BC%D0%BE%D0%B2%D0%BA%D0%B0"
+                  >
+                    <picture>
+                      <source
+                        srcset="
+                          https://i.ytimg.com/vi_webp/0HXW-J_ndM8/maxresdefault.webp
+                        "
+                        type="image/webp"
+                      />
+                      <img
+                        class="video__media"
+                        src="https://i.ytimg.com/vi/0HXW-J_ndM8/maxresdefault.jpg"
+                        alt="1. First release, answers, reviews and broadcasts"
+                      />
+                    </picture>
+                  </a>
+                  <button class="video__button" aria-label="Play the video">
+                    <svg width="68" height="48" viewBox="0 0 68 48">
+                      <path
+                        class="video__button-shape"
+                        d="M66.52,7.74c-0.78-2.93-2.49-5.41-5.42-6.19C55.79,.13,34,0,34,0S12.21,.13,6.9,1.55 C3.97,2.33,2.27,4.81,1.48,7.74C0.06,13.05,0,24,0,24s0.06,10.95,1.48,16.26c0.78,2.93,2.49,5.41,5.42,6.19 C12.21,47.87,34,48,34,48s21.79-0.13,27.1-1.55c2.93-0.78,4.64-3.26,5.42-6.19C67.94,34.95,68,24,68,24S67.94,13.05,66.52,7.74z"
+                      ></path>
+                      <path
+                        class="video__button-icon"
+                        d="M 45,24 27,14 27,34"
+                      ></path>
+                    </svg>
+                  </button>
+                </div>
+              </div>
+              <div class="swiper-slide video__container">
+                <div class="video">
+                  <a
+                    class="video__link"
+                    href="https://www.youtube.com/watch?v=0HXW-J_ndM8&list=PL9Pz6qSnYlVFXVBx7rJMKPN9bSPpnUaUo&ab_channel=%D0%9D%D0%B5%D0%B7%D0%B0%D0%B2%D0%B8%D1%81%D0%B8%D0%BC%D1%8B%D0%B9%D1%84%D0%B5%D1%81%D1%82%D0%B8%D0%B2%D0%B0%D0%BB%D1%8C%D0%9B%D1%8E%D0%B1%D0%B8%D0%BC%D0%BE%D0%B2%D0%BA%D0%B0"
+                  >
+                    <picture>
+                      <source
+                        srcset="
+                          https://i.ytimg.com/vi_webp/0HXW-J_ndM8/maxresdefault.webp
+                        "
+                        type="image/webp"
+                      />
+                      <img
+                        class="video__media"
+                        src="https://i.ytimg.com/vi/0HXW-J_ndM8/maxresdefault.jpg"
+                        alt="1. First release, answers, reviews and broadcasts"
+                      />
+                    </picture>
+                  </a>
+                  <button class="video__button" aria-label="Play the video">
+                    <svg width="68" height="48" viewBox="0 0 68 48">
+                      <path
+                        class="video__button-shape"
+                        d="M66.52,7.74c-0.78-2.93-2.49-5.41-5.42-6.19C55.79,.13,34,0,34,0S12.21,.13,6.9,1.55 C3.97,2.33,2.27,4.81,1.48,7.74C0.06,13.05,0,24,0,24s0.06,10.95,1.48,16.26c0.78,2.93,2.49,5.41,5.42,6.19 C12.21,47.87,34,48,34,48s21.79-0.13,27.1-1.55c2.93-0.78,4.64-3.26,5.42-6.19C67.94,34.95,68,24,68,24S67.94,13.05,66.52,7.74z"
+                      ></path>
+                      <path
+                        class="video__button-icon"
+                        d="M 45,24 27,14 27,34"
+                      ></path>
+                    </svg>
+                  </button>
+                </div>
+              </div>
+              <div class="swiper-slide video__container">
+                <div class="video">
+                  <a
+                    class="video__link"
+                    href="https://www.youtube.com/watch?v=0HXW-J_ndM8&list=PL9Pz6qSnYlVFXVBx7rJMKPN9bSPpnUaUo&ab_channel=%D0%9D%D0%B5%D0%B7%D0%B0%D0%B2%D0%B8%D1%81%D0%B8%D0%BC%D1%8B%D0%B9%D1%84%D0%B5%D1%81%D1%82%D0%B8%D0%B2%D0%B0%D0%BB%D1%8C%D0%9B%D1%8E%D0%B1%D0%B8%D0%BC%D0%BE%D0%B2%D0%BA%D0%B0"
+                  >
+                    <picture>
+                      <source
+                        srcset="
+                          https://i.ytimg.com/vi_webp/0HXW-J_ndM8/maxresdefault.webp
+                        "
+                        type="image/webp"
+                      />
+                      <img
+                        class="video__media"
+                        src="https://i.ytimg.com/vi/0HXW-J_ndM8/maxresdefault.jpg"
+                        alt="1. First release, answers, reviews and broadcasts"
+                      />
+                    </picture>
+                  </a>
+                  <button class="video__button" aria-label="Play the video">
+                    <svg width="68" height="48" viewBox="0 0 68 48">
+                      <path
+                        class="video__button-shape"
+                        d="M66.52,7.74c-0.78-2.93-2.49-5.41-5.42-6.19C55.79,.13,34,0,34,0S12.21,.13,6.9,1.55 C3.97,2.33,2.27,4.81,1.48,7.74C0.06,13.05,0,24,0,24s0.06,10.95,1.48,16.26c0.78,2.93,2.49,5.41,5.42,6.19 C12.21,47.87,34,48,34,48s21.79-0.13,27.1-1.55c2.93-0.78,4.64-3.26,5.42-6.19C67.94,34.95,68,24,68,24S67.94,13.05,66.52,7.74z"
+                      ></path>
+                      <path
+                        class="video__button-icon"
+                        d="M 45,24 27,14 27,34"
+                      ></path>
+                    </svg>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="gallery-section">
+        <h2 class="gallery-section__title">Photo block title</h2>
+        <ul class="gallery">
+          <li class="gallery__item">
+            <img class="gallery__image" src="./images/gallery_photo_1.jpg" alt="A man and a woman on stage, with an orange background">
+          </li>
+          <li class="gallery__item">
+            <img class="gallery__image" src="./images/gallery_photo_2.jpg" alt="A woman sitting on a chair and reading from a sheet">
+          </li>
+          <li class="gallery__item">
+            <img class="gallery__image" src="./images/gallery_photo_3.jpg" alt="A man sitting on a chair and reading from a sheet">
+          </li>
+          <li class="gallery__item">
+            <img class="gallery__image" src="./images/gallery_photo_4.jpg" alt="A couple of people sitting on chairs and reading from sheets">
+          </li>
+          <li class="gallery__item">
+            <img class="gallery__image" src="./images/gallery_photo_5.jpg" alt="Audience">
+          </li>
+          <li class="gallery__item">
+            <img class="gallery__image" src="./images/gallery_photo_6.jpg" alt="A long-haired girl in a white blouse">
+          </li>
+          <li class="gallery__item">
+            <img class="gallery__image" src="./images/gallery_photo_7.jpg" alt="НA couple of people sitting on chairs and reading from sheets, black and white photo">
+          </li>
+          <li class="gallery__item">
+            <img class="gallery__image" src="./images/gallery_photo_8.jpg" alt=A long-haired girl in a white blouse">
+          </li>
+        </ul>
+      </section>
+      <section class="persons">
+        <h2 class="persons__title">
+          Persons block title
+        </h2>
+        <div class="persons__container">
+          <div class="persons__slidetrack">
+            <div class="person">
+              <img class="person__photo" src="./images/person-photo_1.jpg" alt="A woman in a blue sweater">
+              <h3 class="person__title">
+                Teresa Shymchak
+              </h3>
+              <p class="person__subtitle">
+                Playwright, screenwriter, teacher
+              </p>
+            </div>
+            <div class="person">
+              <img class="person__photo" src="./images/person-photo_2.jpg" alt="A man sitting on a chair and reading from a sheet">
+              <h3 class="person__title">
+                Teresa Shymchak
+              </h3>
+              <p class="person__subtitle">
+                Playwright, screenwriter, teacher
+              </p>
+            </div>
+            <div class="person">
+              <img class="person__photo" src="./images/person-photo_3.jpg" alt="A long-haired girl in a white blouse">
+              <h3 class="person__title">
+                Teresa Shymchak
+              </h3>
+              <p class="person__subtitle">
+                Playwright, screenwriter, teacher
+              </p>
+            </div>
+            <div class="person">
+              <img class="person__photo" src="./images/person-photo_1.jpg" alt="A long-haired girl in a white blouse">
+              <h3 class="person__title">
+                Teresa Shymchak
+              </h3>
+              <p class="person__subtitle">
+                Playwright, screenwriter, teacher
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="collab">
+        <div class="collab__text-box">
+          <h5 class="collab__title">We are open to collaboration</h5>
+          <p class="collab__subtitle">We are constantly looking for screenwriters and actors, interested in staging readings</p>
+        <p class="collab__subtitle">Contact us at<span class="collab__email-link">more@lubimovka.ru</span></p>
+        <div class="collab__star"></div>
+        </div>
+      </section>
+    </main>
+    <div class="mobile-menu-popup"></div>
+    <div class="photo-popup">
+      <div class="photo-popup__container">
+        <button class="photo-popup__flip-button photo-popup__flip-button_direction_left">
+          <svg width="21" height="13" viewBox="0 0 21 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path  class="photo-popup__flip-button-arrow" fill-rule="evenodd" clip-rule="evenodd" d="M7.72322e-08 6.47656L0.724826 7.20139L6.52344 13L7.22631 12.2971L1.90563 6.97646L21 6.97646L21 5.97646L1.94976 5.97646L7.20139 0.724827L6.47656 2.19873e-08L0.702867 5.77369L7.72322e-08 6.47656Z" fill="#242424"/>
+          </svg>
+        </button>
+        <img class="photo-popup__image" src="./images/gallery_photo_1.jpg" alt="Полноэкранное фото">
+        <button class="photo-popup__flip-button photo-popup__flip-button_direction_right">
+          <svg width="21" height="13" viewBox="0 0 21 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path class="photo-popup__flip-button-arrow" fill-rule="evenodd" clip-rule="evenodd" d="M21 6.47656L20.2752 7.20139L14.4766 13L13.7737 12.2971L19.0944 6.97646L-3.63036e-07 6.97646L-3.10999e-07 5.97646L19.0502 5.97646L13.7986 0.724826L14.5234 -2.37804e-07L20.2971 5.77369L21 6.47656Z" fill="#242424"/>
+          </svg>
+        </button> 
+        <button class="photo-popup__close-button">&#10005;</button>
+      </div>
+    </div>
+    <script src="./scripts/index.js"></script>
+    <script src="./scripts/mobile-menu.js"></script>
+    <script src="./scripts/gallery-slider.js"></script>
+    <script src="./scripts/video.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+      var init = false;
+      let mobile = window.matchMedia(
+        "(max-width: 1200px)"
+      );
+      if (mobile.matches) {
+        if (!init) {
+          init = true;
+          var swiper = new Swiper(".mySwiper", {
+            slidesPerView: 2,
+            spaceBetween: 0,
+            initialSlide: 1,
+            pagination: {
+              el: ".swiper-pagination",
+              clickable: true,
+            },
+          });
+        }
+      } else {
+        swiper.destroy();
+        init = false;
+      }
+    </script>
   </body>
 </html>

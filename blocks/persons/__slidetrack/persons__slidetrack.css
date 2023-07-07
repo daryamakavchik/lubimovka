@@ -1,0 +1,32 @@
+.persons__slidetrack {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  row-gap: 30px;
+  column-gap: 30px;
+  
+}
+
+@media screen and (max-width: 1399px) {
+  .persons__slidetrack {
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 0;
+  }
+}
+
+@media screen and (max-width: 949px) {
+  .persons__slidetrack {
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 0;
+  }
+}
+
+@media screen and (max-width: 449px) {
+  .persons__slidetrack {
+    display: flex;
+    flex-wrap: nowrap;
+    width: fit-content;
+    gap: 30px;
+    margin: 0 25px 0;
+    scroll-snap-align: start;
+  }
+}

@@ -1,0 +1,27 @@
+.pages-navigation__link {
+  box-sizing: border-box;
+  padding: 0 9px 0 10px;
+  border-right: 1px solid rgba(236, 235, 232, 1);
+  border-left: 1px solid rgba(236, 235, 232, 1);
+  border-radius: 12px;
+
+  color: #242424;
+  text-decoration: none;
+  font-family: 'Formular', Arial, sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 1.375;
+}
+
+.pages-navigation__link:hover {
+  border-color: rgba(36, 36, 36, 1);
+}
+
+@media screen and (max-width: 449px) {
+  .pages-navigation__link {
+    padding: 0 0 0 30px;
+  }
+  .pages-navigation__link:hover {
+    border: 1px solid rgba(236, 235, 232, 1);
+  }
+}

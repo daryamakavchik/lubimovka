@@ -1,0 +1,20 @@
+.videos__title{
+    margin: 0 calc(100vw / 2 - 390px) 45px calc(100vw / 2 - 390px);
+    max-width: 716px;
+    font-family: 'Neue Machina';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 40px;
+    letter-spacing: -0.01em;
+    color: --text-dark;
+}
+
+@media screen and (max-width: 1200px){
+    .videos__title{
+        font-size: 28px;
+        line-height: 32px;
+        max-width: 369px;
+        margin: 0 auto 32px auto;
+    }
+}

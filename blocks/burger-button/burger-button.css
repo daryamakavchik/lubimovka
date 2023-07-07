@@ -1,0 +1,22 @@
+.burger-button {
+  position: absolute;
+  z-index: 2;
+  top: 0;
+  right: 0;
+
+  display: none;
+  border: 0;
+  padding: 0;
+  height: 72px;
+  width: 72px;
+  background-color: #242424;
+
+  cursor: pointer;
+}
+
+@media screen and (max-width: 449px) {
+  .burger-button {
+    display: block;
+    grid-area: burger;
+  }
+}
