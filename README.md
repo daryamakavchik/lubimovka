@@ -13,7 +13,7 @@ The project was designed to practice teamwork and creating responsive layouts.
 <img width="546" alt="page2" src="https://github.com/daryamakavchik/lubimovka/assets/90967822/52d63853-8c64-41af-b573-984df75c7ae1">
 <img width="546" alt="page3" src="https://github.com/daryamakavchik/lubimovka/assets/90967822/b065ac24-5ab8-4b2b-89df-5a0e17637da0">
 
-## Tech Stack:
+## Tech Stack
 ![HTML](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
@@ -25,7 +25,7 @@ The project was designed to practice teamwork and creating responsive layouts.
 - Media-queries
 - BEM Nested file structure
 
-## Team: 
+## Team
 
 • Darya Makavchik (github: daryamakavchik) - teamlead
 </br>
