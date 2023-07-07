@@ -7,7 +7,7 @@
 This landing page is a portfolio project created as an assignment for [Yandex.Practicum](https://practicum.yandex.com/web/ "Web Development Program"). 
 "Lubimovka" is a nonprofit annual festival for Russian speaking playwrights from anywhere in the world. Every year Lubimovka holds a selection of new plays written by both beginners and recognized Russian-speaking authors. Its goal is to give voice to novice authors and make them heard.
 
-The project was designed to practice teamwork, hone responsive layout skills and add interactivity to interface elements.
+The project was designed to practice teamwork and responsive layout skills.
 
 <img width="546" alt="page1" src="https://github.com/daryamakavchik/lubimovka/assets/90967822/c5c73075-6d89-4040-aea8-eefdd7b0a520">
 <img width="546" alt="page2" src="https://github.com/daryamakavchik/lubimovka/assets/90967822/52d63853-8c64-41af-b573-984df75c7ae1">
