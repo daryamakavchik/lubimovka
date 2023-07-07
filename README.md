@@ -46,4 +46,4 @@ cd lubimovka
 ```
 
 ## TO DO
-- [ ] deploy the project to github pages
+- [ ] fix large screen layout
