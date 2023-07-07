@@ -27,7 +27,7 @@ The project was designed to practice teamwork and creating responsive layouts.
 
 ## Team: 
 
-● Darya Makavchik (github: daryamakavchik) - teamlead
+• Darya Makavchik (github: daryamakavchik) - teamlead
 </br>
 • Gleb Lyashenkov (github: glepka)
 </br>
