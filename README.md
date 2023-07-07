@@ -1,6 +1,6 @@
 # "Lubimovka" # 
 
-#### [Figma]([https://www.figma.com/file/DEeW2FE3pJiQ407zqx4C9B/Lubimovka?type=design&node-id=0-1&mode=design&t=VUfoTzCNnLYc7mOG-0](https://www.figma.com/file/sPmrkcsXbuuHC24zIRktfJ/lubimovka-(pr.page)?type=design&node-id=0-1&mode=design)
+#### [Figma]([https://www.figma.com/file/DEeW2FE3pJiQ407zqx4C9B/Lubimovka?type=design&node-id=0-1&mode=design&t=VUfoTzCNnLYc7mOG-0](https://www.figma.com/file/sPmrkcsXbuuHC24zIRktfJ/lubimovka-(pr.page)?type=design&node-id=0-1&mode=design))
 #### [Brief](https://www.notion.so/pr-page-e5b5de2020da43f6a708b5e01f650bd8)
 
 ## Description
